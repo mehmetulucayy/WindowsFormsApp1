@@ -26,10 +26,10 @@ namespace WindowsFormsApp1
             SqlDataReader read = komut.ExecuteReader();
             while (read.Read()) 
             {
-                chart1.Series["Okunan Kitap Sayisi"].Points.AddXY(read["adsoyad"].ToString(), read["okukitapsayisi"]);
+                chart1.Series["Okunan Kitap Sayısı"].Points.AddXY(read["adsoyad"].ToString(), read["okukitapsayisi"]);
             }
             baglanti.Close();
-            chart1.Series["Okunan Kitap Sayisi"].Color = Color.Blue;
+            chart1.Series["Okunan Kitap Sayısı"].Color = Color.Blue;
         }
     }
 }

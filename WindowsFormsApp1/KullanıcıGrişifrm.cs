@@ -28,10 +28,9 @@ namespace WindowsFormsApp1
             {
                 if (txtkadı.Text=="Mehmet" && txtsifre.Text=="1234")
                 {
-                    MessageBox.Show("Hoş Geldiniz");
                     Form1 anafrm = new Form1();
                     anafrm.Show();
-                    
+                    this.Hide();
                 }
                 else
                 {
@@ -51,6 +50,16 @@ namespace WindowsFormsApp1
         private void txtkadı_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_MouseEnter(object sender, EventArgs e)
+        {
+            button1.BackColor = Color.FromArgb(41, 128, 185); // Darker blue on hover
+        }
+
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            button1.BackColor = Color.FromArgb(52, 152, 219); // Original blue
         }
     }
 }

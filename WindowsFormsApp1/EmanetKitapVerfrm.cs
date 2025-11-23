@@ -27,9 +27,21 @@ namespace WindowsFormsApp1
             SqlDataAdapter adtr=new SqlDataAdapter("select *from sepet",baglanti);
             adtr.Fill(daset, "sepet");
             dataGridView1.DataSource = daset.Tables["sepet"];
+            
+            // Kolon başlıklarını düzenle
+            if (dataGridView1.Columns.Count > 0)
+            {
+                dataGridView1.Columns["barkodno"].HeaderText = "BARKOD NO";
+                dataGridView1.Columns["kitapadi"].HeaderText = "KITAP ADI";
+                dataGridView1.Columns["yazari"].HeaderText = "YAZAR";
+                dataGridView1.Columns["yayinevi"].HeaderText = "YAYIN EVI";
+                dataGridView1.Columns["sayfasayisi"].HeaderText = "SAYFA SAYISI";
+                dataGridView1.Columns["kitapsayisi"].HeaderText = "KITAP SAYISI";
+                dataGridView1.Columns["teslimtarihi"].HeaderText = "TESLİM TARİHİ";
+                dataGridView1.Columns["iadetarihi"].HeaderText = "İADE TARİHİ";
+            }
+            
             baglanti.Close();
-
-
         }
         private void btnİptal_Click(object sender, EventArgs e)
         {

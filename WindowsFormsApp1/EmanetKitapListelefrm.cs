@@ -33,6 +33,24 @@ namespace WindowsFormsApp1
             SqlDataAdapter adtr = new SqlDataAdapter("select *from EmanetKitaplar", baglanti);
             adtr.Fill(daset, "EmanetKitaplar");
             dataGridView1.DataSource = daset.Tables["EmanetKitaplar"];
+            
+            // Kolon başlıklarını düzenle
+            if (dataGridView1.Columns.Count > 0)
+            {
+                dataGridView1.Columns["tc"].HeaderText = "TC KIMLIK NO";
+                dataGridView1.Columns["adsoyad"].HeaderText = "AD SOYAD";
+                dataGridView1.Columns["yas"].HeaderText = "YAŞ";
+                dataGridView1.Columns["telefon"].HeaderText = "TELEFON";
+                dataGridView1.Columns["barkodno"].HeaderText = "BARKOD NO";
+                dataGridView1.Columns["kitapadi"].HeaderText = "KITAP ADI";
+                dataGridView1.Columns["yazari"].HeaderText = "YAZAR";
+                dataGridView1.Columns["yayinevi"].HeaderText = "YAYIN EVI";
+                dataGridView1.Columns["sayfasayisi"].HeaderText = "SAYFA SAYISI";
+                dataGridView1.Columns["kitapsayisi"].HeaderText = "KITAP SAYISI";
+                dataGridView1.Columns["teslimtarihi"].HeaderText = "TESLİM TARİHİ";
+                dataGridView1.Columns["iadetarihi"].HeaderText = "İADE TARİHİ";
+            }
+            
             baglanti.Close();
         }
 
@@ -49,6 +67,24 @@ namespace WindowsFormsApp1
                 SqlDataAdapter adtr = new SqlDataAdapter("select * from EmanetKitaplar where '" + DateTime.Now.ToShortDateString() + "' > iadetarihi", baglanti);
                 adtr.Fill(daset, "EmanetKitaplar");
                 dataGridView1.DataSource = daset.Tables["EmanetKitaplar"];
+                
+                // Kolon başlıklarını düzenle
+                if (dataGridView1.Columns.Count > 0)
+                {
+                    dataGridView1.Columns["tc"].HeaderText = "TC KIMLIK NO";
+                    dataGridView1.Columns["adsoyad"].HeaderText = "AD SOYAD";
+                    dataGridView1.Columns["yas"].HeaderText = "YAŞ";
+                    dataGridView1.Columns["telefon"].HeaderText = "TELEFON";
+                    dataGridView1.Columns["barkodno"].HeaderText = "BARKOD NO";
+                    dataGridView1.Columns["kitapadi"].HeaderText = "KITAP ADI";
+                    dataGridView1.Columns["yazari"].HeaderText = "YAZAR";
+                    dataGridView1.Columns["yayinevi"].HeaderText = "YAYIN EVI";
+                    dataGridView1.Columns["sayfasayisi"].HeaderText = "SAYFA SAYISI";
+                    dataGridView1.Columns["kitapsayisi"].HeaderText = "KITAP SAYISI";
+                    dataGridView1.Columns["teslimtarihi"].HeaderText = "TESLİM TARİHİ";
+                    dataGridView1.Columns["iadetarihi"].HeaderText = "İADE TARİHİ";
+                }
+                
                 baglanti.Close();
             }
             else if (comboBox1.SelectedIndex == 2) 
@@ -57,6 +93,24 @@ namespace WindowsFormsApp1
                 SqlDataAdapter adtr = new SqlDataAdapter("select * from EmanetKitaplar where '" + DateTime.Now.ToShortDateString() + "' <= iadetarihi", baglanti);
                 adtr.Fill(daset, "EmanetKitaplar");
                 dataGridView1.DataSource = daset.Tables["EmanetKitaplar"];
+                
+                // Kolon başlıklarını düzenle
+                if (dataGridView1.Columns.Count > 0)
+                {
+                    dataGridView1.Columns["tc"].HeaderText = "TC KIMLIK NO";
+                    dataGridView1.Columns["adsoyad"].HeaderText = "AD SOYAD";
+                    dataGridView1.Columns["yas"].HeaderText = "YAŞ";
+                    dataGridView1.Columns["telefon"].HeaderText = "TELEFON";
+                    dataGridView1.Columns["barkodno"].HeaderText = "BARKOD NO";
+                    dataGridView1.Columns["kitapadi"].HeaderText = "KITAP ADI";
+                    dataGridView1.Columns["yazari"].HeaderText = "YAZAR";
+                    dataGridView1.Columns["yayinevi"].HeaderText = "YAYIN EVI";
+                    dataGridView1.Columns["sayfasayisi"].HeaderText = "SAYFA SAYISI";
+                    dataGridView1.Columns["kitapsayisi"].HeaderText = "KITAP SAYISI";
+                    dataGridView1.Columns["teslimtarihi"].HeaderText = "TESLİM TARİHİ";
+                    dataGridView1.Columns["iadetarihi"].HeaderText = "İADE TARİHİ";
+                }
+                
                 baglanti.Close();
             }
         }

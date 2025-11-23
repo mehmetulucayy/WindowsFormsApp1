@@ -27,6 +27,21 @@ namespace WindowsFormsApp1
             SqlDataAdapter adtr = new SqlDataAdapter("select *from Kitap", baglanti);
             adtr.Fill(daset, "Kitap");
             dataGridView1.DataSource = daset.Tables["Kitap"];
+            
+            // Kolon başlıklarını düzenle
+            if (dataGridView1.Columns.Count > 0)
+            {
+                dataGridView1.Columns["barkodno"].HeaderText = "BARKOD NO";
+                dataGridView1.Columns["kitapadi"].HeaderText = "KITAP ADI";
+                dataGridView1.Columns["yazari"].HeaderText = "YAZAR";
+                dataGridView1.Columns["yayınevi"].HeaderText = "YAYIN EVI";
+                dataGridView1.Columns["sayfasayisi"].HeaderText = "SAYFA SAYISI";
+                dataGridView1.Columns["turu"].HeaderText = "TÜRÜ";
+                dataGridView1.Columns["stoksayisi"].HeaderText = "STOK SAYISI";
+                dataGridView1.Columns["rafno"].HeaderText = "RAF NO";
+                dataGridView1.Columns["aciklama"].HeaderText = "AÇIKLAMA";
+            }
+            
             baglanti.Close();
         }
         private void KitapListelefrm_Load(object sender, EventArgs e)

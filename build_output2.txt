@@ -1,0 +1,1097 @@
+Oluþturma baþlatýldý: 21.11.2025 19:15:15.
+Günlük kaydý ayrýntý düzeyi Detailed olarak ayarlandý.Ýþlem = "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe"
+MSBuild yürütülebilir yolu = "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe"
+Komut satýrý baðýmsýz deðiþkenleri = ""C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe" c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1.sln /t:Rebuild /p:Configuration=Debug /fileLogger /flp:logfile=msbuild.log"
+Geçerli dizin = "C:\Users\mehme\source\repos\WindowsFormsApp1"
+MSBuild sürümü = "17.14.19+164abd434"
+Windows kayýt defteri anahtarý LongPathsEnabled ayarýna baðlý olarak LongPaths özelliði etkin.
+Windows kayýt defteri anahtarý VerifiedAndReputablePolicyState'e göre SAC durumu = 0: kapalý.
+Bazý komut satýrý anahtarlarý "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.rsp" otomatik yanýt dosyasýndan okundu. Bu dosyayý devre dýþý býrakmak için "-noAutoResponse" anahtarýný kullanýn.
+
+Özellik yeniden atamasý: $(MSBuildExtensionsPath)="C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild" (önceki deðer: "C:\Program Files (x86)\MSBuild") konum: 
+Özellik yeniden atamasý: $(MSBuildExtensionsPath32)="C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild" (önceki deðer: "C:\Program Files (x86)\MSBuild") konum: 
+$(MSBuildExtensionsPath) için kullanýlan arama yollarý: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+$(MSBuildExtensionsPath) için kullanýlan arama yollarý: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild uzantý yollarý kullanýlarak C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\$(MSBuildToolsVersion)\SolutionFile\ImportAfter\* içeri aktarýlmaya çalýþýlýyor
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets(112,5): message : Özellik yeniden atamasý: $(_GenerateRestoreGraphProjectEntryInputProperties)="
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets(112,5): message :       ExcludeRestorePackageImports=true;
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets(112,5): message :       _RestoreSolutionFileUsed=true;
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets(112,5): message :       SolutionDir=c:\Users\mehme\source\repos\WindowsFormsApp1\;
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets(112,5): message :       SolutionName=WindowsFormsApp1;
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets(112,5): message :       SolutionFileName=WindowsFormsApp1.sln;
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets(112,5): message :       SolutionPath=c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1.sln;
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets(112,5): message :       SolutionExt=.sln;
+C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets(112,5): message :     " (önceki deðer: "ExcludeRestorePackageImports=true") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets (112,5)
+"_CheckForInvalidConfigurationAndPlatform" konumundaki bir BeforeTargets özniteliðinde listelenen "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets (711,11)" hedefi projede yok ve göz ardý edilecek.
+1 düðümünde "c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1.sln" projesi (Rebuild hedef).
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1.sln" projesinin "c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1.sln.metaproj" dosyasýndaki "ValidateSolutionConfiguration" hedefi (giriþ noktasý):
+Yanlýþ koþul nedeniyle "Error" görevi atlandý; (('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' != 'true')), (('<SolutionConfiguration>
+  <ProjectConfiguration Project="{241D3D26-AA4D-4F78-BB15-63C04234B797}" AbsolutePath="c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>' == '') and ('' != 'true')) olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "Warning" görevi atlandý; (('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' == 'true')), (('<SolutionConfiguration>
+  <ProjectConfiguration Project="{241D3D26-AA4D-4F78-BB15-63C04234B797}" AbsolutePath="c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>' == '') and ('' == 'true')) olarak deðerlendirildi.
+"Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" derlemesindeki "Message" görevi kullanýlýyor.
+"Message" görevi
+  "Debug|Any CPU" çözüm yapýlandýrmasý oluþturuluyor.
+"Message" görevini yürütme tamamlandý.
+"WindowsFormsApp1.sln" projesinde "ValidateSolutionConfiguration" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1.sln" projesinin "c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1.sln.metaproj" dosyasýndaki "ValidateToolsVersions" hedefi (giriþ noktasý):
+Yanlýþ koþul nedeniyle "Error" görevi atlandý; ('$(MSBuildToolsVersion)' == '2.0' and ('$(ProjectToolsVersion)' != '2.0' and '$(ProjectToolsVersion)' != '')), ('Current' == '2.0' and ('' != '2.0' and '' != '')) olarak deðerlendirildi.
+"WindowsFormsApp1.sln" projesinde "ValidateToolsVersions" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1.sln" projesinin "c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1.sln.metaproj" dosyasýndaki "ValidateProjects" hedefi (giriþ noktasý):
+"WindowsFormsApp1.sln" projesinde "ValidateProjects" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1.sln" projesinin "c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1.sln.metaproj" dosyasýndaki "Rebuild" hedefi (giriþ noktasý):
+"Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" derlemesindeki "MSBuild" görevi kullanýlýyor.
+"MSBuild" görevi
+  Genel Özellikler:
+    BuildingSolutionFile=true
+    CurrentSolutionConfigurationContents=<SolutionConfiguration>
+    <ProjectConfiguration Project="{241D3D26-AA4D-4F78-BB15-63C04234B797}" AbsolutePath="c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  </SolutionConfiguration>
+    SolutionDir=c:\Users\mehme\source\repos\WindowsFormsApp1\
+    SolutionExt=.sln
+    SolutionFileName=WindowsFormsApp1.sln
+    SolutionName=WindowsFormsApp1
+    SolutionPath=c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1.sln
+  "c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesi için Ek Özellikler:
+    Configuration=Debug
+    Platform=AnyCPU
+Özellik yeniden atamasý: $(MSBuildExtensionsPath)="C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild" (önceki deðer: "C:\Program Files (x86)\MSBuild") konum: 
+Özellik yeniden atamasý: $(MSBuildExtensionsPath32)="C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild" (önceki deðer: "C:\Program Files (x86)\MSBuild") konum: 
+$(MSBuildExtensionsPath) için kullanýlan arama yollarý: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild uzantý yollarý kullanýlarak C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\$(MSBuildToolsVersion)\Microsoft.Common.props içeri aktarýlmaya çalýþýlýyor
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Microsoft.Common.props(60,5): message : Özellik yeniden atamasý: $(MSBuildProjectExtensionsPath)="c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\" (önceki deðer: "obj\") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Microsoft.Common.props (60,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Microsoft.Common.props(84,119): message : 'C:\Users\mehme\AppData\Local\Microsoft\MSBuild' deðerine sahip 'MSBuildUserExtensionsPath' özelliði ortamdan geniþletildi.
+$(MSBuildExtensionsPath) için kullanýlan arama yollarý: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild uzantý yollarý kullanýlarak C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\$(MSBuildToolsVersion)\Imports\Microsoft.Common.props\ImportBefore\* içeri aktarýlmaya çalýþýlýyor
+Derleme Evaluation sýrasýnda yüklendi: mscorlib.resources, Version=4.0.0.0, Culture=tr, PublicKeyToken=b77a5c561934e089 (konum: C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_tr_b77a5c561934e089\mscorlib.resources.dll, MVID: e1150f12-753f-4000-82d0-b9bb57e0f70a, AppDomain: [Default])
+"Configuration" özelliði genel bir özelliktir ve deðiþtirilemez.
+"Platform" özelliði genel bir özelliktir ve deðiþtirilemez.
+$(MSBuildExtensionsPath) için kullanýlan arama yollarý: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+$(MSBuildExtensionsPath) için kullanýlan arama yollarý: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+"Configuration" özelliði genel bir özelliktir ve deðiþtirilemez.
+"Platform" özelliði genel bir özelliktir ve deðiþtirilemez.
+$(MSBuildExtensionsPath) için kullanýlan arama yollarý: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\Microsoft.CSharp.Core.targets(200,5): message : Özellik yeniden atamasý: $(CommandLineArgsForDesignTimeEvaluation)="-langversion:7.3 -define:DEBUG;TRACE" (önceki deðer: "-langversion:7.3") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\Microsoft.CSharp.Core.targets (200,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets(13,5): message : Özellik yeniden atamasý: $(DefineCommonItemSchemas)="false" (önceki deðer: "true") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets (13,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets(14,5): message : Özellik yeniden atamasý: $(DefineCommonCapabilities)="false" (önceki deðer: "true") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets (14,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets(15,5): message : Özellik yeniden atamasý: $(DefineCommonReferenceSchemas)="false" (önceki deðer: "true") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets (15,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets(501,5): message : Özellik yeniden atamasý: $(CollectUpToDateCheckInputDesignTimeDependsOn)="CompileDesignTime;ResolveCodeAnalysisRuleSet" (önceki deðer: "CompileDesignTime") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets (501,5)
+$(MSBuildExtensionsPath) için kullanýlan arama yollarý: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+$(MSBuildExtensionsPath) için kullanýlan arama yollarý: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild uzantý yollarý kullanýlarak C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\$(MSBuildToolsVersion)\Microsoft.Common.targets\ImportBefore\* içeri aktarýlmaya çalýþýlýyor
+$(MSBuildExtensionsPath) için kullanýlan arama yollarý: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.props(117,5): message : Özellik yeniden atamasý: $(AvailablePlatforms)="Any CPU,x86,x64,ARM64" (önceki deðer: "Any CPU,x86,x64") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.props (117,5)
+$(MSBuildExtensionsPath) için kullanýlan arama yollarý: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+"Platform" özelliði genel bir özelliktir ve deðiþtirilemez.
+"Configuration" özelliði genel bir özelliktir ve deðiþtirilemez.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(175,5): message : Özellik yeniden atamasý: $(_DebugSymbolsProduced)="true" (önceki deðer: "false") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (175,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(185,5): message : Özellik yeniden atamasý: $(_DocumentationFileProduced)="false" (önceki deðer: "true") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (185,5)
+"SolutionName" özelliði genel bir özelliktir ve deðiþtirilemez.
+"SolutionFileName" özelliði genel bir özelliktir ve deðiþtirilemez.
+"SolutionPath" özelliði genel bir özelliktir ve deðiþtirilemez.
+"SolutionDir" özelliði genel bir özelliktir ve deðiþtirilemez.
+"SolutionExt" özelliði genel bir özelliktir ve deðiþtirilemez.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(392,5): message : Özellik yeniden atamasý: $(MSBuildCopyMarkerName)="WindowsF.A1EEDF9B" (önceki deðer: "WindowsFormsApp1.csproj") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (392,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(393,5): message : Özellik yeniden atamasý: $(MSBuildCopyMarkerName)="WindowsF.A1EEDF9B.Up2Date" (önceki deðer: "WindowsF.A1EEDF9B") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (393,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(477,5): message : Özellik yeniden atamasý: $(_DeploymentUrl)="C:\Users\mehme\Desktop\" (önceki deðer: "") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (477,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(479,5): message : Özellik yeniden atamasý: $(_DeploymentUrl)="C:\Users\mehme\Desktop\WindowsFormsApp1.application" (önceki deðer: "C:\Users\mehme\Desktop\") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (479,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(486,5): message : Özellik yeniden atamasý: $(_DeploymentUrl)="" (önceki deðer: "C:\Users\mehme\Desktop\WindowsFormsApp1.application") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (486,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(527,5): message : Özellik yeniden atamasý: $(ProcessorArchitecture)="msil" (önceki deðer: "AnyCPU") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (527,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(580,5): message : Özellik yeniden atamasý: $(DelaySign)="" (önceki deðer: "false") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (580,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(649,5): message : Özellik yeniden atamasý: $(AssemblySearchPaths)="{CandidateAssemblyFiles};" (önceki deðer: "{CandidateAssemblyFiles}") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (649,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(650,5): message : Özellik yeniden atamasý: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem}" (önceki deðer: "{CandidateAssemblyFiles};") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (650,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(651,5): message : Özellik yeniden atamasý: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory}" (önceki deðer: "{CandidateAssemblyFiles};;{HintPathFromItem}") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (651,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(652,5): message : Özellik yeniden atamasý: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\AssemblyFolders.config,v4.7.2};" (önceki deðer: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory}") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (652,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(653,5): message : Özellik yeniden atamasý: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\AssemblyFolders.config,v4.7.2};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx}" (önceki deðer: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\AssemblyFolders.config,v4.7.2};") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (653,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(654,5): message : Özellik yeniden atamasý: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\AssemblyFolders.config,v4.7.2};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders}" (önceki deðer: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\AssemblyFolders.config,v4.7.2};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx}") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (654,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(655,5): message : Özellik yeniden atamasý: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\AssemblyFolders.config,v4.7.2};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC}" (önceki deðer: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\AssemblyFolders.config,v4.7.2};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders}") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (655,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(656,5): message : Özellik yeniden atamasý: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\AssemblyFolders.config,v4.7.2};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC};{RawFileName}" (önceki deðer: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\AssemblyFolders.config,v4.7.2};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC}") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (656,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(657,5): message : Özellik yeniden atamasý: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\AssemblyFolders.config,v4.7.2};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC};{RawFileName};bin\Debug\" (önceki deðer: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};{AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\AssemblyFolders.config,v4.7.2};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC};{RawFileName}") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (657,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2619,5): message : 'C:\Users\mehme\AppData\Local' deðerine sahip 'LOCALAPPDATA' özelliði ortamdan geniþletildi.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(3947,5): message : Özellik yeniden atamasý: $(_SGenGenerateSerializationAssembliesConfig)="Auto" (önceki deðer: "") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (3947,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(3948,5): message : Özellik yeniden atamasý: $(_SGenGenerateSerializationAssembliesConfig)="Off" (önceki deðer: "Auto") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (3948,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(5159,5): message : Özellik yeniden atamasý: $(_TargetsThatPrepareProjectReferences)="
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(5159,5): message :       AssignProjectConfiguration;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(5159,5): message :       _SplitProjectReferencesByFileExistence
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(5159,5): message :     " (önceki deðer: "_SplitProjectReferencesByFileExistence") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (5159,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\CodeAnalysis\Microsoft.CodeAnalysis.targets(125,5): message : Özellik yeniden atamasý: $(_CodeAnalysisTreatWarningsAsErrors)="false" (önceki deðer: "") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (125,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\CodeAnalysis\Microsoft.CodeAnalysis.targets(167,9): message : Özellik yeniden atamasý: $(PrepareForRunDependsOn)="
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\CodeAnalysis\Microsoft.CodeAnalysis.targets(167,9): message :       CopyFilesToOutputDirectory
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\CodeAnalysis\Microsoft.CodeAnalysis.targets(167,9): message :     ;RunCodeAnalysis" (önceki deðer: "
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\CodeAnalysis\Microsoft.CodeAnalysis.targets(167,9): message :       CopyFilesToOutputDirectory
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\CodeAnalysis\Microsoft.CodeAnalysis.targets(167,9): message :     ") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (167,9)
+$(MSBuildExtensionsPath) için kullanýlan arama yollarý: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message : Özellik yeniden atamasý: $(ResolveReferencesDependsOn)="
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       BeforeResolveReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       AssignProjectConfiguration;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveProjectReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       FindInvalidProjectReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveNativeReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveAssemblyReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       GenerateBindingRedirects;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       GenerateBindingRedirectsUpdateAppConfig;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveComReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       AfterResolveReferences
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :     ;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ImplicitlyExpandDesignTimeFacades
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :     " (önceki deðer: "
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       BeforeResolveReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       AssignProjectConfiguration;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveProjectReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       FindInvalidProjectReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveNativeReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveAssemblyReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       GenerateBindingRedirects;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       GenerateBindingRedirectsUpdateAppConfig;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveComReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       AfterResolveReferences
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :     ") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets (74,5)
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(97,7): message : Özellik yeniden atamasý: $(PrepareResourceNamesDependsOn)="
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(97,7): message :                     AssignWinFXEmbeddedResource;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(97,7): message :                     
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(97,7): message :       AssignTargetPaths;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(97,7): message :       SplitResourcesByCulture;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(97,7): message :       CreateManifestResourceNames;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(97,7): message :       CreateCustomManifestResourceNames
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(97,7): message :     
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(97,7): message :       " (önceki deðer: "
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(97,7): message :       AssignTargetPaths;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(97,7): message :       SplitResourcesByCulture;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(97,7): message :       CreateManifestResourceNames;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(97,7): message :       CreateCustomManifestResourceNames
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(97,7): message :     ") konum: C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets (97,7)
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(108,7): message : Özellik yeniden atamasý: $(PrepareResourcesDependsOn)="
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(108,7): message :                 MarkupCompilePass1;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(108,7): message :                 AfterMarkupCompilePass1;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(108,7): message :                 MarkupCompilePass2ForMainAssembly;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(108,7): message :                 FileClassification;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(108,7): message :                 MainResourcesGeneration;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(108,7): message :                 
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(108,7): message :       ;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(108,7): message :       PrepareResourceNames;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(108,7): message :       ResGen;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(108,7): message :       CompileLicxFiles
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(108,7): message :     
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(108,7): message :       " (önceki deðer: "
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(108,7): message :       ;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(108,7): message :       PrepareResourceNames;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(108,7): message :       ResGen;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(108,7): message :       CompileLicxFiles
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(108,7): message :     ") konum: C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets (108,7)
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message : Özellik yeniden atamasý: $(CompileDependsOn)="
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :         
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :       ResolveReferences;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :       ResolveKeySource;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :       SetWin32ManifestProperties;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :       _SetPreferNativeArm64Win32ManifestProperties;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :       FindReferenceAssembliesForReferences;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :       _GenerateCompileInputs;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :       BeforeCompile;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :       _TimeStampBeforeCompile;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :       _GenerateCompileDependencyCache;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :       CoreCompile;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :       _TimeStampAfterCompile;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :       AfterCompile;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :     ;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :         _AfterCompileWinFXInternal
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :     " (önceki deðer: "
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :       ResolveReferences;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :       ResolveKeySource;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :       SetWin32ManifestProperties;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :       _SetPreferNativeArm64Win32ManifestProperties;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :       FindReferenceAssembliesForReferences;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :       _GenerateCompileInputs;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :       BeforeCompile;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :       _TimeStampBeforeCompile;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :       _GenerateCompileDependencyCache;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :       CoreCompile;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :       _TimeStampAfterCompile;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :       AfterCompile;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(184,5): message :     ") konum: C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets (184,5)
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(813,9): message : Özellik yeniden atamasý: $(PublishBuildDependsOn)="
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(813,9): message :             BuildOnlySettings;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(813,9): message :             PrepareForBuild;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(813,9): message :             ResolveReferences;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(813,9): message :             PrepareResources;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(813,9): message :             ResolveKeySource;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(813,9): message :             PrepareResourcesForSatelliteAssemblies;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(813,9): message :             GenerateSerializationAssemblies;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(813,9): message :             CreateSatelliteAssemblies;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(813,9): message :         " (önceki deðer: "
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(813,9): message :       BuildOnlySettings;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(813,9): message :       PrepareForBuild;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(813,9): message :       ResolveReferences;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(813,9): message :       PrepareResources;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(813,9): message :       ResolveKeySource;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(813,9): message :       GenerateSerializationAssemblies;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(813,9): message :       CreateSatelliteAssemblies;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets(813,9): message :     ") konum: C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets (813,9)
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(35,5): message : Özellik yeniden atamasý: $(BuildDependsOn)="
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(35,5): message :       EntityDeploy;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(35,5): message :       
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(35,5): message :       BeforeBuild;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(35,5): message :       CoreBuild;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(35,5): message :       AfterBuild
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(35,5): message :     
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(35,5): message :     " (önceki deðer: "
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(35,5): message :       BeforeBuild;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(35,5): message :       CoreBuild;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(35,5): message :       AfterBuild
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(35,5): message :     ") konum: C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets (35,5)
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(42,5): message : Özellik yeniden atamasý: $(CleanDependsOn)="
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(42,5): message :       
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(42,5): message :       BeforeClean;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(42,5): message :       UnmanagedUnregistration;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(42,5): message :       CoreClean;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(42,5): message :       CleanReferencedProjects;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(42,5): message :       CleanPublishFolder;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(42,5): message :       AfterClean
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(42,5): message :     ;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(42,5): message :       EntityClean;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(42,5): message :     " (önceki deðer: "
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(42,5): message :       BeforeClean;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(42,5): message :       UnmanagedUnregistration;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(42,5): message :       CoreClean;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(42,5): message :       CleanReferencedProjects;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(42,5): message :       CleanPublishFolder;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(42,5): message :       AfterClean
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets(42,5): message :     ") konum: C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Data.Entity.targets (42,5)
+$(MSBuildExtensionsPath) için kullanýlan arama yollarý: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message : Özellik yeniden atamasý: $(PrepareResourcesDependsOn)="
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :       XamlMarkupCompilePass1;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :       XamlMarkupCompilePass2;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :       
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :                 MarkupCompilePass1;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :                 AfterMarkupCompilePass1;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :                 MarkupCompilePass2ForMainAssembly;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :                 FileClassification;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :                 MainResourcesGeneration;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :                 
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :       ;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :       PrepareResourceNames;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :       ResGen;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :       CompileLicxFiles
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :     
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :        
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :     " (önceki deðer: "
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :                 MarkupCompilePass1;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :                 AfterMarkupCompilePass1;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :                 MarkupCompilePass2ForMainAssembly;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :                 FileClassification;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :                 MainResourcesGeneration;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :                 
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :       ;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :       PrepareResourceNames;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :       ResGen;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :       CompileLicxFiles
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :     
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets(35,5): message :       ") konum: C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets (35,5)
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message : Özellik yeniden atamasý: $(PrepareResourcesDependsOn)="
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :       ValidationExtension;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :       ExpressionBuildExtension;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :       
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :       XamlMarkupCompilePass1;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :       XamlMarkupCompilePass2;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :       
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :                 MarkupCompilePass1;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :                 AfterMarkupCompilePass1;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :                 MarkupCompilePass2ForMainAssembly;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :                 FileClassification;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :                 MainResourcesGeneration;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :                 
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :       ;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :       PrepareResourceNames;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :       ResGen;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :       CompileLicxFiles
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :     
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :        
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :     
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :     " (önceki deðer: "
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :       XamlMarkupCompilePass1;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :       XamlMarkupCompilePass2;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :       
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :                 MarkupCompilePass1;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :                 AfterMarkupCompilePass1;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :                 MarkupCompilePass2ForMainAssembly;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :                 FileClassification;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :                 MainResourcesGeneration;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :                 
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :       ;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :       PrepareResourceNames;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :       ResGen;
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :       CompileLicxFiles
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :     
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :        
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets(16,5): message :     ") konum: C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets (16,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message : Özellik yeniden atamasý: $(ResolveReferencesDependsOn)="
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       BeforeResolveReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       AssignProjectConfiguration;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       ResolveProjectReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       FindInvalidProjectReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       ResolveNativeReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       ResolveAssemblyReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       GenerateBindingRedirects;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       GenerateBindingRedirectsUpdateAppConfig;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       ResolveComReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       AfterResolveReferences
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :     ;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       ImplicitlyExpandDesignTimeFacades
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :     ;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       ResolveTestReferences
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :     " (önceki deðer: "
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       BeforeResolveReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       AssignProjectConfiguration;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       ResolveProjectReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       FindInvalidProjectReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       ResolveNativeReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       ResolveAssemblyReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       GenerateBindingRedirects;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       GenerateBindingRedirectsUpdateAppConfig;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       ResolveComReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       AfterResolveReferences
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :     ;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :       ImplicitlyExpandDesignTimeFacades
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets(4,5): message :     ") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets (4,5)
+$(MSBuildExtensionsPath) için kullanýlan arama yollarý: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild uzantý yollarý kullanýlarak C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\$(MSBuildToolsVersion)\Microsoft.Common.targets\ImportAfter\* içeri aktarýlmaya çalýþýlýyor
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(74,5): message : Özellik yeniden atamasý: $(ProjectLockFile)="obj\project.assets.json" (önceki deðer: "c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\project.assets.json") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets (74,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(185,5): message : Özellik yeniden atamasý: $(ResolveAssemblyReferencesDependsOn)="
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(185,5): message :       ResolveProjectReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(185,5): message :       FindInvalidProjectReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(185,5): message :       GetFrameworkPaths;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(185,5): message :       GetReferenceAssemblyPaths;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(185,5): message :       PrepareForBuild;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(185,5): message :       ResolveSDKReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(185,5): message :       ExpandSDKReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(185,5): message :     ;ResolveNuGetPackageAssets" (önceki deðer: "
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(185,5): message :       ResolveProjectReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(185,5): message :       FindInvalidProjectReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(185,5): message :       GetFrameworkPaths;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(185,5): message :       GetReferenceAssemblyPaths;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(185,5): message :       PrepareForBuild;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(185,5): message :       ResolveSDKReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(185,5): message :       ExpandSDKReferences;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(185,5): message :     ") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets (185,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message : Özellik yeniden atamasý: $(PrepareResourcesDependsOn)="ResolveNuGetPackageAssets;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :       ValidationExtension;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :       ExpressionBuildExtension;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :       
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :       XamlMarkupCompilePass1;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :       XamlMarkupCompilePass2;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :       
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :                 MarkupCompilePass1;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :                 AfterMarkupCompilePass1;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :                 MarkupCompilePass2ForMainAssembly;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :                 FileClassification;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :                 MainResourcesGeneration;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :                 
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :       ;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :       PrepareResourceNames;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :       ResGen;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :       CompileLicxFiles
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :     
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :        
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :     
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :     " (önceki deðer: "
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :       ValidationExtension;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :       ExpressionBuildExtension;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :       
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :       XamlMarkupCompilePass1;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :       XamlMarkupCompilePass2;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :       
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :                 MarkupCompilePass1;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :                 AfterMarkupCompilePass1;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :                 MarkupCompilePass2ForMainAssembly;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :                 FileClassification;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :                 MainResourcesGeneration;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :                 
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :       ;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :       PrepareResourceNames;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :       ResGen;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :       CompileLicxFiles
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :     
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :        
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :     
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(186,5): message :     ") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets (186,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets(267,5): message : Özellik yeniden atamasý: $(_HandlePackageFileConflictsAfter)="ResolveNuGetPackageAssets;ResolveNuGetPackageAssetsNonAOT" (önceki deðer: "ResolveNuGetPackageAssets") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\NuGet\17.0\Microsoft.NuGet.targets (267,5)
+$(MSBuildExtensionsPath) için kullanýlan arama yollarý: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+$(MSBuildExtensionsPath) için kullanýlan arama yollarý: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild uzantý yollarý kullanýlarak C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\WebTools.Aspire\Microsoft.WebTools.Aspire.targets içeri aktarýlmaya çalýþýlýyor
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\WebTools.Aspire\Microsoft.WebTools.Aspire.targets(25,5): message : Özellik yeniden atamasý: $(JsonSchemaCombinedFilePath)="c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\CombinedComponentSchema.json" (önceki deðer: "obj\Debug\\CombinedComponentSchema.json") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\WebTools.Aspire\Microsoft.WebTools.Aspire.targets (25,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\WebTools.Aspire\Microsoft.WebTools.Aspire.targets(27,5): message : Özellik yeniden atamasý: $(AppSettingsJsonSchemaCombinedFilePath)="c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\AppSettingsSchema.json" (önceki deðer: "obj\Debug\\AppSettingsSchema.json") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\WebTools.Aspire\Microsoft.WebTools.Aspire.targets (27,5)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Xamarin\Xamarin.Sdk.targets(9,9): message : Özellik yeniden atamasý: $(PrepareForRunDependsOn)="
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Xamarin\Xamarin.Sdk.targets(9,9): message :             _CalculatePostXamarinTelemetry;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Xamarin\Xamarin.Sdk.targets(9,9): message :             _PostXamarinTelemetry;
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Xamarin\Xamarin.Sdk.targets(9,9): message :             
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Xamarin\Xamarin.Sdk.targets(9,9): message :       CopyFilesToOutputDirectory
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Xamarin\Xamarin.Sdk.targets(9,9): message :     ;RunCodeAnalysis
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Xamarin\Xamarin.Sdk.targets(9,9): message :         " (önceki deðer: "
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Xamarin\Xamarin.Sdk.targets(9,9): message :       CopyFilesToOutputDirectory
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Xamarin\Xamarin.Sdk.targets(9,9): message :     ;RunCodeAnalysis") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Xamarin\Xamarin.Sdk.targets (9,9)
+$(MSBuildExtensionsPath) için kullanýlan arama yollarý: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+"C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" projesindeki "ResolveFrameworkReferences" hedefi kullanýlarak "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets" projesindeki "ResolveFrameworkReferences" hedefinin üzerine yazýlýyor.
+"C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets" projesindeki "GetFrameworkPaths" hedefi kullanýlarak "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" projesindeki "GetFrameworkPaths" hedefinin üzerine yazýlýyor.
+"C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" projesindeki "SatelliteDllsProjectOutputGroup" hedefi kullanýlarak "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" projesindeki "SatelliteDllsProjectOutputGroup" hedefinin üzerine yazýlýyor.
+"C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.WorkflowBuildExtensions.targets" projesindeki "GenerateCompiledExpressionsTempFile" hedefi kullanýlarak "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets" projesindeki "GenerateCompiledExpressionsTempFile" hedefinin üzerine yazýlýyor.
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets" projesindeki "CollectPackageReferences" hedefi kullanýlarak "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets" projesindeki "CollectPackageReferences" hedefinin üzerine yazýlýyor.
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets" projesindeki "CollectNuGetAuditSuppressions" hedefi kullanýlarak "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets" projesindeki "CollectNuGetAuditSuppressions" hedefinin üzerine yazýlýyor.
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets" projesindeki "CollectPrunePackageReferences" hedefi kullanýlarak "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets" projesindeki "CollectPrunePackageReferences" hedefinin üzerine yazýlýyor.
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\ProjectServices\Microsoft.DesignTime.targets" projesindeki "CollectCopyToOutputDirectoryItemDesignTime" hedefi kullanýlarak "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets" projesindeki "CollectCopyToOutputDirectoryItemDesignTime" hedefinin üzerine yazýlýyor.
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\ProjectServices\Microsoft.DesignTime.targets" projesindeki "CompileDesignTime" hedefi kullanýlarak "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.CSharp.DesignTime.targets" projesindeki "CompileDesignTime" hedefinin üzerine yazýlýyor.
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\ProjectServices\Microsoft.DesignTime.targets" projesindeki "_CheckCompileDesignTimePrerequisite" hedefi kullanýlarak "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets" projesindeki "_CheckCompileDesignTimePrerequisite" hedefinin üzerine yazýlýyor.
+"_PrepareRazorSourceGenerators" konumundaki bir AfterTargets özniteliðinde listelenen "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.CSharp.DesignTime.targets (74,45)" hedefi projede yok ve göz ardý edilecek.
+"ClCompile" konumundaki bir AfterTargets özniteliðinde listelenen "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (446,11)" hedefi projede yok ve göz ardý edilecek.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1.sln" projesi (1) 1 düðümünde "c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" (2) oluþturuyor (Rebuild hedef).
+Proje dosyasý ToolsVersion="15.0" içeriyor. Bu araç seti bilinmiyor veya eksik olabilir; bu durumda uygun MSBuild sürümünü yükleyerek bu sorunu çözebilirsiniz. Derleme, ilke nedeniyle belirli bir ToolsVersion’a zorlanmýþ da olabilir. Projenin ToolsVersion="Current" deðerine sahip olduðu kabul ediliyor. Daha fazla bilgi edinmek için bkz. http://go.microsoft.com/fwlink/?LinkId=293424.
+Yanlýþ koþul nedeniyle "EnableIntermediateOutputPathMismatchWarning" hedefi atlandý; ('$(RestoreProjectStyle)' == 'PackageReference'), ('' == 'PackageReference') olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "_CheckForInvalidConfigurationAndPlatform" hedefi ("BeforeRebuild" hedefi buna baðýmlý):
+Yanlýþ koþul nedeniyle "MSBuildInternalMessage" görevi atlandý; ('$(_InvalidConfigurationMessageSeverity)' != ''), ('' != '') olarak deðerlendirildi.
+"Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" derlemesindeki "Message" görevi kullanýlýyor.
+"Message" görevi
+  Configuration=Debug
+"Message" görevini yürütme tamamlandý.
+"Message" görevi
+  Platform=AnyCPU
+"Message" görevini yürütme tamamlandý.
+Yanlýþ koþul nedeniyle "MSBuildInternalMessage" görevi atlandý; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')), ('bin\Debug\' != '' and !HasTrailingSlash('bin\Debug\')) olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "MSBuildInternalMessage" görevi atlandý; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')), ('obj\Debug\' != '' and !HasTrailingSlash('obj\Debug\')) olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "MSBuildInternalMessage" görevi atlandý; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')), ('obj\' != '' and !HasTrailingSlash('obj\')) olarak deðerlendirildi.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(857,7): message : Özellik yeniden atamasý: $(PlatformTargetAsMSBuildArchitecture)="x86" (önceki deðer: "CurrentArchitecture") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (857,7) [c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj]
+Yanlýþ koþul nedeniyle "MSBuildInternalMessage" görevi atlandý; ( '$(Prefer32Bit)' == 'true' and '$(PreferNativeArm64)' == 'true' ), ( 'true' == 'true' and '' == 'true' ) olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "MSBuildInternalMessage" görevi atlandý; ( '$(NoWin32Manifest)' == 'true' and '$(PreferNativeArm64)' == 'true' ), ( '' == 'true' and '' == 'true' ) olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "MSBuildInternalMessage" görevi atlandý; ( '$(PreferNativeArm64)' == 'true' and '$(Platform)' != 'AnyCPU' ), ( '' == 'true' and 'AnyCPU' != 'AnyCPU' ) olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "MSBuildInternalMessage" görevi atlandý; ( '$(_InitialMSBuildProjectExtensionsPath)' != '' And '$(MSBuildProjectExtensionsPath)' != '$(_InitialMSBuildProjectExtensionsPath)' ), ( 'c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\' != '' And 'c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\' != 'c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\' ) olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "MSBuildInternalMessage" görevi atlandý; ( '$(EnableBaseIntermediateOutputPathMismatchWarning)' == 'true' And '$(_InitialBaseIntermediateOutputPath)' != '$(BaseIntermediateOutputPath)' And '$(BaseIntermediateOutputPath)' != '$(MSBuildProjectExtensionsPath)' ), ( '' == 'true' And 'obj\' != 'obj\' And 'obj\' != 'c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\' ) olarak deðerlendirildi.
+"WindowsFormsApp1.csproj" projesinde "_CheckForInvalidConfigurationAndPlatform" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "BeforeRebuild" hedefi ("Rebuild" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "BeforeRebuild" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "BeforeClean" hedefi ("Clean" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "BeforeClean" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "UnmanagedUnregistration" hedefi atlandý; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                    ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                   Exists('@(_UnmanagedRegistrationCache)')), ((('' != '' or '' != 'true' or 'WinExe' != 'library') or
+                    ('' == '')) and
+                   Exists('obj\WindowsFormsApp1.csproj.UnmanagedRegistration.cache')) olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "CoreClean" hedefi ("Clean" hedefi buna baðýmlý):
+"Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" derlemesindeki "Delete" görevi kullanýlýyor.
+"Delete" görevi
+  "obj\Debug\\TempCA\WindowsFormsApp1.pdb" dosyasý yok. Atlanýyor.
+  "obj\Debug\\TempCA\WindowsFormsApp1.exe" dosyasý yok. Atlanýyor.
+"Delete" görevini yürütme tamamlandý.
+"Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" derlemesindeki "ReadLinesFromFile" görevi kullanýlýyor.
+"ReadLinesFromFile" görevi
+"ReadLinesFromFile" görevini yürütme tamamlandý.
+"Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" derlemesindeki "FindUnderPath" görevi kullanýlýyor.
+"FindUnderPath" görevi
+  Karþýlaþtýrma yolu: "bin\Debug\".
+"FindUnderPath" görevini yürütme tamamlandý.
+"FindUnderPath" görevi
+  Karþýlaþtýrma yolu: "obj\Debug\".
+"FindUnderPath" görevini yürütme tamamlandý.
+"Delete" görevi
+  "c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache" dosyasý siliniyor.
+  "c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.EmanetKitapListelefrm.resources" dosyasý siliniyor.
+  "c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.EmanetKitapVerfrm.resources" dosyasý siliniyor.
+  "c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.EmanetKitapÝadefrm.resources" dosyasý siliniyor.
+  "c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources" dosyasý siliniyor.
+  "c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Grafikfrm.resources" dosyasý siliniyor.
+  "c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.KitapEklefrm.resources" dosyasý siliniyor.
+  "c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.KitapListelefrm.resources" dosyasý siliniyor.
+  "c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.KullanýcýGriþifrm.resources" dosyasý siliniyor.
+  "c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources" dosyasý siliniyor.
+  "c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Sýralamafrm.resources" dosyasý siliniyor.
+  "c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.UyeEklefrm.resources" dosyasý siliniyor.
+  "c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.UyeListelefrm.resources" dosyasý siliniyor.
+  "c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache" dosyasý siliniyor.
+  "c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache" dosyasý siliniyor.
+"Delete" görevini yürütme tamamlandý.
+"Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" derlemesindeki "RemoveDuplicates" görevi kullanýlýyor.
+"RemoveDuplicates" görevi
+"RemoveDuplicates" görevini yürütme tamamlandý.
+"Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" derlemesindeki "MakeDir" görevi kullanýlýyor.
+"MakeDir" görevi
+"MakeDir" görevini yürütme tamamlandý.
+"Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" derlemesindeki "WriteLinesToFile" görevi kullanýlýyor.
+"WriteLinesToFile" görevi
+"WriteLinesToFile" görevini yürütme tamamlandý.
+"WindowsFormsApp1.csproj" projesinde "CoreClean" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "_CleanMdbFiles" hedefi atlandý; (Exists('$(TargetPath).mdb')), (Exists('c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.mdb')) olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "IgnoreJavaScriptOutputAssembly" hedefi ("AssignProjectConfiguration" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "IgnoreJavaScriptOutputAssembly" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "AssignProjectConfiguration" hedefi ("PrepareProjectReferences" hedefi buna baðýmlý):
+"Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" derlemesindeki "AssignProjectConfiguration" görevi kullanýlýyor.
+"AssignProjectConfiguration" görevi
+"AssignProjectConfiguration" görevini yürütme tamamlandý.
+"WindowsFormsApp1.csproj" projesinde "AssignProjectConfiguration" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "_SplitProjectReferencesByFileExistence" hedefi ("PrepareProjectReferences" hedefi buna baðýmlý):
+Yanlýþ koþul nedeniyle "ResolveNonMSBuildProjectOutput" görevi atlandý; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!=''), (''=='true' and ''!='') olarak deðerlendirildi.
+"WindowsFormsApp1.csproj" projesinde "_SplitProjectReferencesByFileExistence" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "_AddOutputPathToGlobalPropertiesToRemove" hedefi ("_GetProjectReferenceTargetFrameworkProperties" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "_AddOutputPathToGlobalPropertiesToRemove" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "_GetProjectReferenceTargetFrameworkProperties" hedefi ("PrepareProjectReferences" hedefi buna baðýmlý):
+"Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" derlemesindeki "MSBuild" görevi kullanýlýyor.
+"MSBuild" görevi
+"MSBuild" görevini yürütme tamamlandý.
+Yanlýþ koþul nedeniyle "MSBuild" görevi atlandý; ('%(_MSBuildProjectReferenceExistent.SkipGetTargetFrameworkProperties)' != 'true' and '$(EnableDynamicPlatformResolution)' == 'true'), ('' != 'true' and '' == 'true') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "GetReferenceNearestTargetFrameworkTask" görevi atlandý; ('@(_ProjectReferenceTargetFrameworkPossibilities)' != '' and '$(ReferringTargetFrameworkForProjectReferences)' != ''
+                                                        And '$(GetReferenceNearestTargetFrameworkTaskSupportsTargetPlatformParameter)' == 'true' and '%(_ProjectReferenceTargetFrameworkPossibilities.IsVcxOrNativeProj)' != 'true'), ('' != '' and '.NETFramework,Version=v4.7.2' != ''
+                                                        And 'true' == 'true' and '' != 'true') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "GetReferenceNearestTargetFrameworkTask" görevi atlandý; ('@(_ProjectReferenceTargetFrameworkPossibilities)' != '' and '$(ReferringTargetFrameworkForProjectReferences)' != ''
+                                                        And '$(GetReferenceNearestTargetFrameworkTaskSupportsTargetPlatformParameter)' != 'true' and '%(_ProjectReferenceTargetFrameworkPossibilities.IsVcxOrNativeProj)' != 'true'), ('' != '' and '.NETFramework,Version=v4.7.2' != ''
+                                                        And 'true' != 'true' and '' != 'true') olarak deðerlendirildi.
+"Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" derlemesindeki "SetRidAgnosticValueForProjects" görevi kullanýlýyor.
+"SetRidAgnosticValueForProjects" görevi
+"SetRidAgnosticValueForProjects" görevini yürütme tamamlandý.
+"WindowsFormsApp1.csproj" projesinde "_GetProjectReferenceTargetFrameworkProperties" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "_GetProjectReferencePlatformProperties" hedefi atlandý; ('$(EnableDynamicPlatformResolution)' == 'true'
+                     and '@(_MSBuildProjectReferenceExistent)' != ''), ('' == 'true'
+                     and '' != '') olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "PrepareProjectReferences" hedefi ("CleanReferencedProjects" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "PrepareProjectReferences" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "CleanReferencedProjects" hedefi ("Clean" hedefi buna baðýmlý):
+Yanlýþ koþul nedeniyle "MSBuild" görevi atlandý; ('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != ''), ('' != 'true' and 'true' == 'true' and '' != '') olarak deðerlendirildi.
+"WindowsFormsApp1.csproj" projesinde "CleanReferencedProjects" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "CleanPublishFolder" hedefi ("Clean" hedefi buna baðýmlý):
+Yanlýþ koþul nedeniyle "RemoveDir" görevi atlandý; ('$(ClickOncePublishDir)'=='$(OutputPath)app.publish\' and Exists('$(ClickOncePublishDir)')), ('bin\Debug\app.publish\'=='bin\Debug\app.publish\' and Exists('bin\Debug\app.publish\')) olarak deðerlendirildi.
+"WindowsFormsApp1.csproj" projesinde "CleanPublishFolder" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "AfterClean" hedefi ("Clean" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "AfterClean" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "EntityClean" hedefi atlandý; ('@(EntityDeploy)' != ''), ('' != '') olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "Clean" hedefi ("Rebuild" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "Clean" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "_CleanXamarinBuildIsIncrementalFile" hedefi atlandý; ('$(_PostXamarinTelemetry)' == 'true' and Exists('$(_XamarinBuildIsIncrementalFile)')), ('' == 'true' and Exists('')) olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.ServiceModel.targets" dosyasýndaki "CleanXsdCodeGen" hedefi ("Rebuild" hedefi buna baðýmlý):
+"Delete" görevi
+"Delete" görevini yürütme tamamlandý.
+"WindowsFormsApp1.csproj" projesinde "CleanXsdCodeGen" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "EntityDeploy" hedefi atlandý; ('@(EntityDeploy)' != ''), ('' != '') olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "BeforeBuild" hedefi ("Build" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "BeforeBuild" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "BuildOnlySettings" hedefi ("CoreBuild" hedefi buna baðýmlý):
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1168,7): message : Özellik yeniden atamasý: $(BuildingProject)="true" (önceki deðer: "false") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (1168,7) [c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj]
+"WindowsFormsApp1.csproj" projesinde "BuildOnlySettings" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets" dosyasýndaki "GetFrameworkPaths" hedefi ("PrepareForBuild" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "GetFrameworkPaths" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "GetWinFXPath" hedefi atlandý; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )), (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )) olarak deðerlendirildi.
+"GetFrameworkPaths" hedefi atlandý. Önceden baþarýlý bir þekilde derlenmiþti.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "GetReferenceAssemblyPaths" hedefi ("PrepareForBuild" hedefi buna baðýmlý):
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1255,7): message : Özellik yeniden atamasý: $(TargetFrameworkDirectory)="" (önceki deðer: "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (1255,7) [c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj]
+"Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" derlemesindeki "GetReferenceAssemblyPaths" görevi kullanýlýyor.
+"GetReferenceAssemblyPaths" görevi
+"GetReferenceAssemblyPaths" görevini yürütme tamamlandý.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1272,7): message : Özellik yeniden atamasý: $(TargetFrameworkDirectory)="C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\;;" (önceki deðer: "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (1272,7) [c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj]
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1293,7): message : Özellik yeniden atamasý: $(TargetFrameworkDirectory)="C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\;;;C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\" (önceki deðer: "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (1293,7) [c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj]
+"WindowsFormsApp1.csproj" projesinde "GetReferenceAssemblyPaths" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "AssignLinkMetadata" hedefi atlandý; ( '$(SynthesizeLinkMetadata)' == 'true' ), ( '' == 'true' ) olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "PrepareForBuild" hedefi ("CoreBuild" hedefi buna baðýmlý):
+"Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" derlemesindeki "FindAppConfigFile" görevi kullanýlýyor.
+"FindAppConfigFile" görevi
+  "App.config" bulundu.
+"FindAppConfigFile" görevini yürütme tamamlandý.
+"MakeDir" görevi
+"MakeDir" görevini yürütme tamamlandý.
+"WindowsFormsApp1.csproj" projesinde "PrepareForBuild" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "PreBuildEvent" hedefi atlandý; ('$(PreBuildEvent)'!=''), (''!='') olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "BeforeResolveReferences" hedefi ("ResolveReferences" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "BeforeResolveReferences" hedefini oluþturma tamamlandý.
+"AssignProjectConfiguration" hedefi atlandý. Önceden baþarýlý bir þekilde derlenmiþti.
+"PrepareProjectReferences" hedefi atlandý. Önceden baþarýlý bir þekilde derlenmiþti.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "ResolveProjectReferences" hedefi ("ResolveReferences" hedefi buna baðýmlý):
+Yanlýþ koþul nedeniyle "MSBuild" görevi atlandý; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != ''), ('' == 'true' and '' != '' and ('' == 'true' or 'true' != 'true') and '17.0' != '10.0' and '' != '') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "MSBuild" görevi atlandý; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != ''), ('' == 'true' and '' != '' and '' != 'true' and 'true' == 'true' and '' != '') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "MSBuild" görevi atlandý; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != ''), ('' == 'true' and '' != '' and 'true' == 'true' and '' != '') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "MSBuildInternalMessage" görevi atlandý; ('$(_NonExistentProjectReferenceSeverity)' != ''), ('' != '') olarak deðerlendirildi.
+"WindowsFormsApp1.csproj" projesinde "ResolveProjectReferences" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "FindInvalidProjectReferences" hedefi atlandý; ('$(FindInvalidProjectReferences)' == 'true'), ('' == 'true') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "ResolveNativeReferences" hedefi atlandý; ('@(NativeReference)'!=''), (''!='') olarak deðerlendirildi.
+"ResolveProjectReferences" hedefi atlandý. Önceden baþarýlý bir þekilde derlenmiþti.
+Yanlýþ koþul nedeniyle "FindInvalidProjectReferences" hedefi atlandý; ('$(FindInvalidProjectReferences)' == 'true'), ('' == 'true') olarak deðerlendirildi.
+"GetFrameworkPaths" hedefi atlandý. Önceden baþarýlý bir þekilde derlenmiþti.
+"GetReferenceAssemblyPaths" hedefi atlandý. Önceden baþarýlý bir þekilde derlenmiþti.
+"PrepareForBuild" hedefi atlandý. Önceden baþarýlý bir þekilde derlenmiþti.
+Yanlýþ koþul nedeniyle "GetInstalledSDKLocations" hedefi atlandý; ('@(SDKReference)' != ''), ('' != '') olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "ResolveSDKReferences" hedefi ("ResolveAssemblyReferences" hedefi buna baðýmlý):
+Yanlýþ koþul nedeniyle "ResolveSDKReference" görevi atlandý; ('@(SDKReference)'!=''), (''!='') olarak deðerlendirildi.
+"WindowsFormsApp1.csproj" projesinde "ResolveSDKReferences" hedefini oluþturma tamamlandý.
+"ResolveSDKReferences" hedefi atlandý. Önceden baþarýlý bir þekilde derlenmiþti.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "ExpandSDKReferences" hedefi ("ResolveAssemblyReferences" hedefi buna baðýmlý):
+Yanlýþ koþul nedeniyle "GetSDKReferenceFiles" görevi atlandý; ('@(ResolvedSDKReference)'!=''), (''!='') olarak deðerlendirildi.
+"WindowsFormsApp1.csproj" projesinde "ExpandSDKReferences" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "ResolveNuGetPackageAssets" hedefi atlandý; ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')), ('true' == 'true' and exists('obj\project.assets.json')) olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.NETFramework.targets" dosyasýndaki "ImplicitlyExpandNETStandardFacades" hedefi ("ResolveAssemblyReferences" hedefi buna baðýmlý):
+Yanlýþ koþul nedeniyle "GetDependsOnNETStandard" görevi atlandý; ('$(_RunGetDependsOnNETStandard)' == 'true'), ('' == 'true') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "NETBuildExtensionsError" görevi atlandý; ('$(DependsOnNETStandard)' == 'true' AND '$(NETStandardInbox)' != 'true' AND '$(_UsingOldSDK)' == 'true'), ('' == 'true' AND 'true' != 'true' AND '' == 'true') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "AddFacadesToReferences" görevi atlandý; ('@(_NETStandardLibraryNETFrameworkLib)' != ''), ('' != '') olarak deðerlendirildi.
+"WindowsFormsApp1.csproj" projesinde "ImplicitlyExpandNETStandardFacades" hedefini oluþturma tamamlandý.
+"GetFrameworkPaths" hedefi atlandý. Önceden baþarýlý bir þekilde derlenmiþti.
+"GetReferenceAssemblyPaths" hedefi atlandý. Önceden baþarýlý bir þekilde derlenmiþti.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets" dosyasýndaki "_HandlePackageFileConflicts" hedefi ("ResolveAssemblyReferences" hedefi buna baðýmlý):
+"C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\tools\net472\Microsoft.NET.Build.Extensions.Tasks.dll" derlemesindeki "ResolvePackageFileConflicts" görevi kullanýlýyor.
+"ResolvePackageFileConflicts" görevi
+"ResolvePackageFileConflicts" görevini yürütme tamamlandý.
+"WindowsFormsApp1.csproj" projesinde "_HandlePackageFileConflicts" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "ResolveAssemblyReferences" hedefi ("ResolveReferences" hedefi buna baðýmlý):
+"Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" derlemesindeki "ResolveAssemblyReference" görevi kullanýlýyor.
+"ResolveAssemblyReference" görevi
+  TargetFrameworkMoniker:
+      .NETFramework,Version=v4.7.2
+  TargetFrameworkMonikerDisplayName:
+      .NET Framework 4.7.2
+  TargetedRuntimeVersion:
+      v4.0.30319
+  Assemblies:
+      System
+      System.Windows.Forms.DataVisualization
+      System.Xml.Linq
+      System.Data.DataSetExtensions
+      Microsoft.CSharp
+      System.Data
+      System.Deployment
+      System.Drawing
+      System.Net.Http
+      System.Windows.Forms
+      System.Xml
+      System.Core
+  AssemblyFiles:
+      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\mscorlib.dll
+  CandidateAssemblyFiles:
+  TargetFrameworkDirectories:
+      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\,C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\
+  NonCultureResourceDirectories:
+      
+  InstalledAssemblyTables:
+  IgnoreInstalledAssemblyTable:
+      False
+  SearchPaths:
+      {CandidateAssemblyFiles}
+      {HintPathFromItem}
+      {TargetFrameworkDirectory}
+      {AssemblyFoldersFromConfig:C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\AssemblyFolders.config,v4.7.2}
+      {Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx}
+      {AssemblyFolders}
+      {GAC}
+      {RawFileName}
+      bin\Debug\
+  AllowedAssemblyExtensions:
+      .winmd
+      .dll
+      .exe
+  AllowedRelatedFileExtensions:
+      .pdb
+      .xml
+      .pri
+      .dll.config
+      .exe.config
+  AppConfigFile:
+      App.config
+  AutoUnify:
+      True
+  EnableCustomCulture:
+      False
+  CopyLocalDependenciesWhenParentReferenceInGac:
+      True
+  FindDependencies:
+      True
+  TargetProcessorArchitecture:
+      msil
+  StateFile:
+      obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+  InstalledAssemblySubsetTables:
+  IgnoreInstalledAssemblySubsetTable:
+      False
+  TargetFrameworkSubsets:
+  FullTargetFrameworkSubsetNames:
+      Full
+  ProfileName:
+      
+  FullFrameworkFolders:
+      C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\
+  LatestTargetFrameworkDirectories:
+  ProfileTablesLocation:
+  Birincil baþvuru: "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Çözümlenmiþ dosya yolu: "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\mscorlib.dll".
+      Baþvuru, "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\mscorlib.dll" arama yolu konumunda bulundu.
+      Frameworks dizininde olduðundan bu baþvuru "CopyLocal" deðildir.
+  Birincil baþvuru: "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Çözümlenmiþ dosya yolu: "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll".
+      Baþvuru, "{TargetFrameworkDirectory}" arama yolu konumunda bulundu.
+          SearchPath "{TargetFrameworkDirectory}" için.
+          "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.winmd" denendi, ancak böyle bir öðe yoktu.
+      Bu baþvuru bir önkoþul dosyasý olduðundan "CopyLocal" deðildir.
+  Birincil baþvuru: "System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35".
+      Çözümlenmiþ dosya yolu: "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Windows.Forms.DataVisualization.dll".
+      Baþvuru, "{TargetFrameworkDirectory}" arama yolu konumunda bulundu.
+          SearchPath "{TargetFrameworkDirectory}" için.
+          "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Windows.Forms.DataVisualization.winmd" denendi, ancak böyle bir öðe yoktu.
+      Bu baþvuru bir önkoþul dosyasý olduðundan "CopyLocal" deðildir.
+  Birincil baþvuru: "System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Çözümlenmiþ dosya yolu: "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.Linq.dll".
+      Baþvuru, "{TargetFrameworkDirectory}" arama yolu konumunda bulundu.
+          SearchPath "{TargetFrameworkDirectory}" için.
+          "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.Linq.winmd" denendi, ancak böyle bir öðe yoktu.
+      Bu baþvuru bir önkoþul dosyasý olduðundan "CopyLocal" deðildir.
+  Birincil baþvuru: "System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Çözümlenmiþ dosya yolu: "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.DataSetExtensions.dll".
+      Baþvuru, "{TargetFrameworkDirectory}" arama yolu konumunda bulundu.
+          SearchPath "{TargetFrameworkDirectory}" için.
+          "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.DataSetExtensions.winmd" denendi, ancak böyle bir öðe yoktu.
+      Bu baþvuru bir önkoþul dosyasý olduðundan "CopyLocal" deðildir.
+  Birincil baþvuru: "Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      Çözümlenmiþ dosya yolu: "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.CSharp.dll".
+      Baþvuru, "{TargetFrameworkDirectory}" arama yolu konumunda bulundu.
+          SearchPath "{TargetFrameworkDirectory}" için.
+          "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.CSharp.winmd" denendi, ancak böyle bir öðe yoktu.
+      Bu baþvuru bir önkoþul dosyasý olduðundan "CopyLocal" deðildir.
+  Birincil baþvuru: "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Çözümlenmiþ dosya yolu: "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.dll".
+      Baþvuru, "{TargetFrameworkDirectory}" arama yolu konumunda bulundu.
+          SearchPath "{TargetFrameworkDirectory}" için.
+          "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.winmd" denendi, ancak böyle bir öðe yoktu.
+      Bu baþvuru bir önkoþul dosyasý olduðundan "CopyLocal" deðildir.
+  Birincil baþvuru: "System.Deployment, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      Çözümlenmiþ dosya yolu: "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Deployment.dll".
+      Baþvuru, "{TargetFrameworkDirectory}" arama yolu konumunda bulundu.
+          SearchPath "{TargetFrameworkDirectory}" için.
+          "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Deployment.winmd" denendi, ancak böyle bir öðe yoktu.
+      Bu baþvuru bir önkoþul dosyasý olduðundan "CopyLocal" deðildir.
+  Birincil baþvuru: "System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      Çözümlenmiþ dosya yolu: "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Drawing.dll".
+      Baþvuru, "{TargetFrameworkDirectory}" arama yolu konumunda bulundu.
+          SearchPath "{TargetFrameworkDirectory}" için.
+          "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Drawing.winmd" denendi, ancak böyle bir öðe yoktu.
+      Bu baþvuru bir önkoþul dosyasý olduðundan "CopyLocal" deðildir.
+  Birincil baþvuru: "System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+      Çözümlenmiþ dosya yolu: "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Net.Http.dll".
+      Baþvuru, "{TargetFrameworkDirectory}" arama yolu konumunda bulundu.
+          SearchPath "{TargetFrameworkDirectory}" için.
+          "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Net.Http.winmd" denendi, ancak böyle bir öðe yoktu.
+      Bu baþvuru bir önkoþul dosyasý olduðundan "CopyLocal" deðildir.
+  Birincil baþvuru: "System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Çözümlenmiþ dosya yolu: "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Windows.Forms.dll".
+      Baþvuru, "{TargetFrameworkDirectory}" arama yolu konumunda bulundu.
+          SearchPath "{TargetFrameworkDirectory}" için.
+          "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Windows.Forms.winmd" denendi, ancak böyle bir öðe yoktu.
+      Bu baþvuru bir önkoþul dosyasý olduðundan "CopyLocal" deðildir.
+  Birincil baþvuru: "System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Çözümlenmiþ dosya yolu: "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.dll".
+      Baþvuru, "{TargetFrameworkDirectory}" arama yolu konumunda bulundu.
+          SearchPath "{TargetFrameworkDirectory}" için.
+          "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.winmd" denendi, ancak böyle bir öðe yoktu.
+      Bu baþvuru bir önkoþul dosyasý olduðundan "CopyLocal" deðildir.
+  Birincil baþvuru: "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+      Çözümlenmiþ dosya yolu: "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Core.dll".
+      Baþvuru, "{TargetFrameworkDirectory}" arama yolu konumunda bulundu.
+          SearchPath "{TargetFrameworkDirectory}" için.
+          "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Core.winmd" denendi, ancak böyle bir öðe yoktu.
+      Bu baþvuru bir önkoþul dosyasý olduðundan "CopyLocal" deðildir.
+"ResolveAssemblyReference" görevini yürütme tamamlandý.
+"WindowsFormsApp1.csproj" projesinde "ResolveAssemblyReferences" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "GenerateBindingRedirects" hedefi atlandý; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and '@(SuggestedBindingRedirects)' != '' and '$(DesignTimeBuild)' != 'true' and '$(BuildingProject)' == 'true'), ('true' == 'true' and 'true' == 'true' and '' != '' and '' != 'true' and 'true' == 'true') olarak deðerlendirildi.
+"ResolveAssemblyReferences" hedefi atlandý. Önceden baþarýlý bir þekilde derlenmiþti.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.NETFramework.targets" dosyasýndaki "_RemoveZipFileSuggestedRedirect" hedefi ("GenerateBindingRedirects" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "_RemoveZipFileSuggestedRedirect" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "GenerateBindingRedirectsUpdateAppConfig" hedefi ("ResolveReferences" hedefi buna baðýmlý):
+Yanlýþ koþul nedeniyle "Copy" görevi atlandý; ('$(ConfigFileExists)' == 'true' and '$(HasNoBindingRedirects)' == 'true' and '$(DesignTimeBuild)' != 'true'), ('' == 'true' and 'true' == 'true' and '' != 'true') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "Touch" görevi atlandý; ('$(ConfigFileExists)' == 'true' and '$(HasNoBindingRedirects)' == 'true' and '$(DesignTimeBuild)' != 'true'), ('' == 'true' and 'true' == 'true' and '' != 'true') olarak deðerlendirildi.
+"WindowsFormsApp1.csproj" projesinde "GenerateBindingRedirectsUpdateAppConfig" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "ResolveComReferences" hedefi atlandý; ('@(COMReference)'!='' or '@(COMFileReference)'!=''), (''!='' or ''!='') olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "AfterResolveReferences" hedefi ("ResolveReferences" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "AfterResolveReferences" hedefini oluþturma tamamlandý.
+"GetReferenceAssemblyPaths" hedefi atlandý. Önceden baþarýlý bir þekilde derlenmiþti.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.NETFramework.CurrentVersion.targets" dosyasýndaki "ImplicitlyExpandDesignTimeFacades" hedefi ("ResolveReferences" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "ImplicitlyExpandDesignTimeFacades" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "ResolveTestReferences" hedefi atlandý; ('@(Shadow)'!=''), (''!='') olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "ResolveReferences" hedefi ("CoreBuild" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "ResolveReferences" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "ResolveNuGetPackageAssets" hedefi atlandý; ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')), ('true' == 'true' and exists('obj\project.assets.json')) olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets" dosyasýndaki "ValidationExtension" hedefi ("PrepareResources" hedefi buna baðýmlý):
+Yanlýþ koþul nedeniyle "WorkflowBuildMessageTask" görevi atlandý; ('$(SkipWorkflowValidation)'!='' and '$(SkipWorkflowValidation)'!='true' and '$(SkipWorkflowValidation)'!='false'), (''!='' and ''!='true' and ''!='false') olarak deðerlendirildi.
+"WindowsFormsApp1.csproj" projesinde "ValidationExtension" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets" dosyasýndaki "ExpressionBuildExtension" hedefi ("PrepareResources" hedefi buna baðýmlý):
+Yanlýþ koþul nedeniyle "WorkflowBuildMessageTask" görevi atlandý; ('$(DisableWorkflowCompiledExpressions)'!='' and '$(DisableWorkflowCompiledExpressions)'!='true' and '$(DisableWorkflowCompiledExpressions)'!='false'), (''!='' and ''!='true' and ''!='false') olarak deðerlendirildi.
+"WindowsFormsApp1.csproj" projesinde "ExpressionBuildExtension" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "XamlMarkupCompilePass1" hedefi atlandý; ('@(XamlPage)' != '' or '@(XamlAppDef)' != ''), ('' != '' or '' != '') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "XamlMarkupCompileReadGeneratedFileList" hedefi atlandý; ('@(XamlPage)' != '' or '@(XamlAppDef)' != ''), ('' != '' or '' != '') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "XamlMarkupCompileAddFilesGenerated" hedefi atlandý; ('@(XamlPage)' != '' or '@(XamlAppDef)' != ''), ('' != '' or '' != '') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "XamlMarkupCompilePass2" hedefi atlandý; ('$(XamlRequiresCompilationPass2)' == 'true' ), ('false' == 'true' ) olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "XamlMarkupCompileReadPass2Flag" hedefi atlandý; ('@(XamlPage)' != '' or '@(XamlAppDef)' != ''), ('' != '' or '' != '') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "XamlMarkupCompileAddExtensionFilesGenerated" hedefi atlandý; ('@(XamlPage)' != '' or '@(XamlAppDef)' != ''), ('' != '' or '' != '') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "AddDeferredValidationErrorsFileToFileWrites" hedefi atlandý; (Exists('$(DeferredValidationErrorsFileName)')), (Exists('obj\Debug\\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml')) olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "ReportValidationBuildExtensionErrors" hedefi atlandý; ('$(SkipWorkflowValidation)' != 'true' and ('@(XamlPage)' != '' or '@(XamlAppDef)' != '')), ('' != 'true' and ('' != '' or '' != '')) olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "MarkupCompilePass1" hedefi atlandý; ('@(Page)' != '' or '@(ApplicationDefinition)' != '' ), ('' != '' or '' != '' ) olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" dosyasýndaki "AfterMarkupCompilePass1" hedefi ("PrepareResources" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "AfterMarkupCompilePass1" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "MarkupCompilePass2ForMainAssembly" hedefi atlandý; ('$(_RequireMCPass2ForMainAssembly)' == 'true' ), ('false' == 'true' ) olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WinFx.targets" dosyasýndaki "FileClassification" hedefi ("PrepareResources" hedefi buna baðýmlý):
+Yanlýþ koþul nedeniyle "FileClassifier" görevi atlandý; ('@(GeneratedBaml)' != '' or '@(Resource)' != '' or '@(Font)' != ''), ('' != '' or '' != '' or '' != '') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "Message" görevi atlandý; ('$(MSBuildTargetsVerbose)'=='true'), (''=='true') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "Message" görevi atlandý; ('$(MSBuildTargetsVerbose)'=='true'), (''=='true') olarak deðerlendirildi.
+"WindowsFormsApp1.csproj" projesinde "FileClassification" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "MainResourcesGeneration" hedefi atlandý; ('@(MainEmbeddedFiles)' != ''), ('' != '') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "AssignWinFXEmbeddedResource" hedefi atlandý; ('@(WinFXEmbeddedResource)' != ''), ('' != '') olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\Microsoft.Managed.Core.targets" dosyasýndaki "CopyAdditionalFiles" hedefi ("AssignTargetPaths" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "CopyAdditionalFiles" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "AssignTargetPaths" hedefi ("PrepareResourceNames" hedefi buna baðýmlý):
+"Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" derlemesindeki "AssignTargetPath" görevi kullanýlýyor.
+"AssignTargetPath" görevi
+"AssignTargetPath" görevini yürütme tamamlandý.
+"AssignTargetPath" görevi
+"AssignTargetPath" görevini yürütme tamamlandý.
+"AssignTargetPath" görevi
+"AssignTargetPath" görevini yürütme tamamlandý.
+"AssignTargetPath" görevi
+"AssignTargetPath" görevini yürütme tamamlandý.
+Yanlýþ koþul nedeniyle "AssignTargetPath" görevi atlandý; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest'), (''=='' and '.settings'=='.manifest') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "AssignTargetPath" görevi atlandý; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest'), (''=='' and '.pfx'=='.manifest') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "AssignTargetPath" görevi atlandý; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest'), (''=='' and '.config'=='.manifest') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "AssignTargetPath" görevi atlandý; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest'), (''=='' and '.jpeg'=='.manifest') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "AssignTargetPath" görevi atlandý; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest'), (''=='' and '.png'=='.manifest') olarak deðerlendirildi.
+"WindowsFormsApp1.csproj" projesinde "AssignTargetPaths" hedefini oluþturma tamamlandý.
+"AssignTargetPaths" hedefi atlandý. Önceden baþarýlý bir þekilde derlenmiþti.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "SplitResourcesByCulture" hedefi ("PrepareResourceNames" hedefi buna baðýmlý):
+Yanlýþ koþul nedeniyle "MSBuildInternalMessage" görevi atlandý; ('@(ResxWithNoCulture)'!=''), (''!='') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "MSBuildInternalMessage" görevi atlandý; ('@(ResxWithCulture)'!=''), (''!='') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "MSBuildInternalMessage" görevi atlandý; ('@(NonResxWithCulture)'!=''), (''!='') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "MSBuildInternalMessage" görevi atlandý; ('@(NonResxWithNoCulture)'!=''), (''!='') olarak deðerlendirildi.
+"Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" derlemesindeki "AssignCulture" görevi kullanýlýyor.
+"AssignCulture" görevi
+  "" kültürü "EmanetKitapListelefrm.resx" dosyasýna atandý.
+  "" kültürü "EmanetKitapVerfrm.resx" dosyasýna atandý.
+  "" kültürü "EmanetKitapÝadefrm.resx" dosyasýna atandý.
+  "" kültürü "Form1.resx" dosyasýna atandý.
+  "" kültürü "Grafikfrm.resx" dosyasýna atandý.
+  "" kültürü "KitapEklefrm.resx" dosyasýna atandý.
+  "" kültürü "KitapListelefrm.resx" dosyasýna atandý.
+  "" kültürü "KullanýcýGriþifrm.resx" dosyasýna atandý.
+  "" kültürü "Properties\Resources.resx" dosyasýna atandý.
+  "" kültürü "Sýralamafrm.resx" dosyasýna atandý.
+  "" kültürü "UyeEklefrm.resx" dosyasýna atandý.
+  "" kültürü "UyeListelefrm.resx" dosyasýna atandý.
+"AssignCulture" görevini yürütme tamamlandý.
+"WindowsFormsApp1.csproj" projesinde "SplitResourcesByCulture" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.CSharp.CurrentVersion.targets" dosyasýndaki "CreateManifestResourceNames" hedefi ("PrepareResourceNames" hedefi buna baðýmlý):
+"Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" derlemesindeki "CreateCSharpManifestResourceName" görevi kullanýlýyor.
+"CreateCSharpManifestResourceName" görevi
+  Kök ad alaný: 'WindowsFormsApp1'.
+  'EmanetKitapListelefrm.resx' kaynak dosyasý 'EmanetKitapListelefrm.cs' öðesine baðýmlýdýr.
+  'EmanetKitapListelefrm.resx' kaynak dosyasý, 'WindowsFormsApp1.EmanetKitapListelefrm' bildirim kaynaðý adýný alýyor.
+  'EmanetKitapVerfrm.resx' kaynak dosyasý 'EmanetKitapVerfrm.cs' öðesine baðýmlýdýr.
+  'EmanetKitapVerfrm.resx' kaynak dosyasý, 'WindowsFormsApp1.EmanetKitapVerfrm' bildirim kaynaðý adýný alýyor.
+  'EmanetKitapÝadefrm.resx' kaynak dosyasý 'EmanetKitapÝadefrm.cs' öðesine baðýmlýdýr.
+  'EmanetKitapÝadefrm.resx' kaynak dosyasý, 'WindowsFormsApp1.EmanetKitapÝadefrm' bildirim kaynaðý adýný alýyor.
+  'Form1.resx' kaynak dosyasý 'Form1.cs' öðesine baðýmlýdýr.
+  'Form1.resx' kaynak dosyasý, 'WindowsFormsApp1.Form1' bildirim kaynaðý adýný alýyor.
+  'Grafikfrm.resx' kaynak dosyasý 'Grafikfrm.cs' öðesine baðýmlýdýr.
+  'Grafikfrm.resx' kaynak dosyasý, 'WindowsFormsApp1.Grafikfrm' bildirim kaynaðý adýný alýyor.
+  'KitapEklefrm.resx' kaynak dosyasý 'KitapEklefrm.cs' öðesine baðýmlýdýr.
+  'KitapEklefrm.resx' kaynak dosyasý, 'WindowsFormsApp1.KitapEklefrm' bildirim kaynaðý adýný alýyor.
+  'KitapListelefrm.resx' kaynak dosyasý 'KitapListelefrm.cs' öðesine baðýmlýdýr.
+  'KitapListelefrm.resx' kaynak dosyasý, 'WindowsFormsApp1.KitapListelefrm' bildirim kaynaðý adýný alýyor.
+  'KullanýcýGriþifrm.resx' kaynak dosyasý 'KullanýcýGriþifrm.cs' öðesine baðýmlýdýr.
+  'KullanýcýGriþifrm.resx' kaynak dosyasý, 'WindowsFormsApp1.KullanýcýGriþifrm' bildirim kaynaðý adýný alýyor.
+  'Properties\Resources.resx' kaynak dosyasý herhangi bir baþka dosyaya baðýmlý deðildir.
+  'Properties\Resources.resx' kaynak dosyasý, 'WindowsFormsApp1.Properties.Resources' bildirim kaynaðý adýný alýyor.
+  'Sýralamafrm.resx' kaynak dosyasý 'Sýralamafrm.cs' öðesine baðýmlýdýr.
+  'Sýralamafrm.resx' kaynak dosyasý, 'WindowsFormsApp1.Sýralamafrm' bildirim kaynaðý adýný alýyor.
+  'UyeEklefrm.resx' kaynak dosyasý 'UyeEklefrm.cs' öðesine baðýmlýdýr.
+  'UyeEklefrm.resx' kaynak dosyasý, 'WindowsFormsApp1.UyeEklefrm' bildirim kaynaðý adýný alýyor.
+  'UyeListelefrm.resx' kaynak dosyasý 'UyeListelefrm.cs' öðesine baðýmlýdýr.
+  'UyeListelefrm.resx' kaynak dosyasý, 'WindowsFormsApp1.UyeListelefrm' bildirim kaynaðý adýný alýyor.
+"CreateCSharpManifestResourceName" görevini yürütme tamamlandý.
+Yanlýþ koþul nedeniyle "CreateCSharpManifestResourceName" görevi atlandý; ('%(EmbeddedResource.ManifestResourceName)' == '' and '%(EmbeddedResource.WithCulture)' == 'true' and '%(EmbeddedResource.Type)' == 'Non-Resx'), ('' == '' and 'false' == 'true' and 'Resx' == 'Non-Resx') olarak deðerlendirildi.
+"WindowsFormsApp1.csproj" projesinde "CreateManifestResourceNames" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "CreateCustomManifestResourceNames" hedefi ("PrepareResourceNames" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "CreateCustomManifestResourceNames" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "PrepareResourceNames" hedefi ("PrepareResources" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "PrepareResourceNames" hedefini oluþturma tamamlandý.
+"ResolveAssemblyReferences" hedefi atlandý. Önceden baþarýlý bir þekilde derlenmiþti.
+"SplitResourcesByCulture" hedefi atlandý. Önceden baþarýlý bir þekilde derlenmiþti.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "BeforeResGen" hedefi ("ResGen" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "BeforeResGen" hedefini oluþturma tamamlandý.
+"ResolveReferences" hedefi atlandý. Önceden baþarýlý bir þekilde derlenmiþti.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "FindReferenceAssembliesForReferences" hedefi ("CoreResGen" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "FindReferenceAssembliesForReferences" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "CoreResGen" hedefi ("ResGen" hedefi buna baðýmlý):
+"Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" derlemesindeki "GenerateResource" görevi kullanýlýyor.
+"GenerateResource" görevi
+  "obj\Debug\WindowsFormsApp1.EmanetKitapListelefrm.resources" çýkýþ dosyasý yok.
+  "obj\Debug\WindowsFormsApp1.EmanetKitapVerfrm.resources" çýkýþ dosyasý yok.
+  "obj\Debug\WindowsFormsApp1.EmanetKitapÝadefrm.resources" çýkýþ dosyasý yok.
+  "obj\Debug\WindowsFormsApp1.Form1.resources" çýkýþ dosyasý yok.
+  "obj\Debug\WindowsFormsApp1.Grafikfrm.resources" çýkýþ dosyasý yok.
+  "obj\Debug\WindowsFormsApp1.KitapEklefrm.resources" çýkýþ dosyasý yok.
+  "obj\Debug\WindowsFormsApp1.KitapListelefrm.resources" çýkýþ dosyasý yok.
+  "obj\Debug\WindowsFormsApp1.KullanýcýGriþifrm.resources" çýkýþ dosyasý yok.
+  "obj\Debug\WindowsFormsApp1.Properties.Resources.resources" çýkýþ dosyasý yok.
+  "obj\Debug\WindowsFormsApp1.Sýralamafrm.resources" çýkýþ dosyasý yok.
+  "obj\Debug\WindowsFormsApp1.UyeEklefrm.resources" çýkýþ dosyasý yok.
+  "obj\Debug\WindowsFormsApp1.UyeListelefrm.resources" çýkýþ dosyasý yok.
+  "C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.CSharp.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\mscorlib.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.DataSetExtensions.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Deployment.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Net.Http.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Windows.Forms.DataVisualization.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.Linq.dll" /compile EmanetKitapListelefrm.resx,obj\Debug\WindowsFormsApp1.EmanetKitapListelefrm.resources EmanetKitapVerfrm.resx,obj\Debug\WindowsFormsApp1.EmanetKitapVerfrm.resources "EmanetKitapÝadefrm.resx","obj\Debug\WindowsFormsApp1.EmanetKitapÝadefrm.resources" Form1.resx,obj\Debug\WindowsFormsApp1.Form1.resources Grafikfrm.resx,obj\Debug\WindowsFormsApp1.Grafikfrm.resources KitapEklefrm.resx,obj\Debug\WindowsFormsApp1.KitapEklefrm.resources KitapListelefrm.resx,obj\Debug\WindowsFormsApp1.KitapListelefrm.resources "KullanýcýGriþifrm.resx","obj\Debug\WindowsFormsApp1.KullanýcýGriþifrm.resources" Properties\Resources.resx,obj\Debug\WindowsFormsApp1.Properties.Resources.resources "Sýralamafrm.resx","obj\Debug\WindowsFormsApp1.Sýralamafrm.resources" UyeEklefrm.resx,obj\Debug\WindowsFormsApp1.UyeEklefrm.resources UyeListelefrm.resx,obj\Debug\WindowsFormsApp1.UyeListelefrm.resources
+  "EmanetKitapListelefrm.resx" kaynak dosyasý "obj\Debug\WindowsFormsApp1.EmanetKitapListelefrm.resources" konumuna yönelik olarak iþleniyor.
+  "0" kaynak dosyasý "EmanetKitapListelefrm.resx" konumuna yönelik olarak iþleniyor.
+  "EmanetKitapVerfrm.resx" kaynak dosyasý "obj\Debug\WindowsFormsApp1.EmanetKitapVerfrm.resources" konumuna yönelik olarak iþleniyor.
+  "0" kaynak dosyasý "EmanetKitapVerfrm.resx" konumuna yönelik olarak iþleniyor.
+  "EmanetKitapÝadefrm.resx" kaynak dosyasý "obj\Debug\WindowsFormsApp1.EmanetKitapÝadefrm.resources" konumuna yönelik olarak iþleniyor.
+  "0" kaynak dosyasý "EmanetKitapÝadefrm.resx" konumuna yönelik olarak iþleniyor.
+  "Form1.resx" kaynak dosyasý "obj\Debug\WindowsFormsApp1.Form1.resources" konumuna yönelik olarak iþleniyor.
+  "0" kaynak dosyasý "Form1.resx" konumuna yönelik olarak iþleniyor.
+  "Grafikfrm.resx" kaynak dosyasý "obj\Debug\WindowsFormsApp1.Grafikfrm.resources" konumuna yönelik olarak iþleniyor.
+  "0" kaynak dosyasý "Grafikfrm.resx" konumuna yönelik olarak iþleniyor.
+  "KitapEklefrm.resx" kaynak dosyasý "obj\Debug\WindowsFormsApp1.KitapEklefrm.resources" konumuna yönelik olarak iþleniyor.
+  "0" kaynak dosyasý "KitapEklefrm.resx" konumuna yönelik olarak iþleniyor.
+  "KitapListelefrm.resx" kaynak dosyasý "obj\Debug\WindowsFormsApp1.KitapListelefrm.resources" konumuna yönelik olarak iþleniyor.
+  "0" kaynak dosyasý "KitapListelefrm.resx" konumuna yönelik olarak iþleniyor.
+  "KullanýcýGriþifrm.resx" kaynak dosyasý "obj\Debug\WindowsFormsApp1.KullanýcýGriþifrm.resources" konumuna yönelik olarak iþleniyor.
+  "0" kaynak dosyasý "KullanýcýGriþifrm.resx" konumuna yönelik olarak iþleniyor.
+  "Properties\Resources.resx" kaynak dosyasý "obj\Debug\WindowsFormsApp1.Properties.Resources.resources" konumuna yönelik olarak iþleniyor.
+  "0" kaynak dosyasý "Properties\Resources.resx" konumuna yönelik olarak iþleniyor.
+  "Sýralamafrm.resx" kaynak dosyasý "obj\Debug\WindowsFormsApp1.Sýralamafrm.resources" konumuna yönelik olarak iþleniyor.
+  "0" kaynak dosyasý "Sýralamafrm.resx" konumuna yönelik olarak iþleniyor.
+  "UyeEklefrm.resx" kaynak dosyasý "obj\Debug\WindowsFormsApp1.UyeEklefrm.resources" konumuna yönelik olarak iþleniyor.
+  "0" kaynak dosyasý "UyeEklefrm.resx" konumuna yönelik olarak iþleniyor.
+  "UyeListelefrm.resx" kaynak dosyasý "obj\Debug\WindowsFormsApp1.UyeListelefrm.resources" konumuna yönelik olarak iþleniyor.
+  "0" kaynak dosyasý "UyeListelefrm.resx" konumuna yönelik olarak iþleniyor.
+"GenerateResource" görevini yürütme tamamlandý.
+Yanlýþ koþul nedeniyle "GenerateResource" görevi atlandý; ('%(EmbeddedResource.Type)' == 'Resx' and '%(EmbeddedResource.GenerateResource)' != 'false' and '$(GenerateResourceMSBuildRuntime)' == 'CLR2'), ('Resx' == 'Resx' and '' != 'false' and 'CurrentRuntime' == 'CLR2') olarak deðerlendirildi.
+"WindowsFormsApp1.csproj" projesinde "CoreResGen" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "AfterResGen" hedefi ("ResGen" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "AfterResGen" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "ResGen" hedefi ("PrepareResources" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "ResGen" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "CompileLicxFiles" hedefi atlandý; ('@(_LicxFile)'!=''), (''!='') olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "PrepareResources" hedefi ("CoreBuild" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "PrepareResources" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "ResolveKeySource" hedefi atlandý; ($(SignManifests) == 'true' or $(SignAssembly) == 'true'), ( == 'true' or  == 'true') olarak deðerlendirildi.
+"ResolveReferences" hedefi atlandý. Önceden baþarýlý bir þekilde derlenmiþti.
+Yanlýþ koþul nedeniyle "ResolveKeySource" hedefi atlandý; ($(SignManifests) == 'true' or $(SignAssembly) == 'true'), ( == 'true' or  == 'true') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "ResolveComReferences" hedefi atlandý; ('@(COMReference)'!='' or '@(COMFileReference)'!=''), (''!='' or ''!='') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "ResolveNativeReferences" hedefi atlandý; ('@(NativeReference)'!=''), (''!='') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "_SetExternalWin32ManifestProperties" hedefi atlandý; ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!=''), (''=='true' or ''!='' or ''!='') olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "_SetEmbeddedWin32ManifestProperties" hedefi ("SetWin32ManifestProperties" hedefi buna baðýmlý):
+"Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" derlemesindeki "GetFrameworkPath" görevi kullanýlýyor.
+"GetFrameworkPath" görevi
+"GetFrameworkPath" görevini yürütme tamamlandý.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(4219,7): message : Özellik yeniden atamasý: $(EmbeddedWin32Manifest)="C:\Windows\Microsoft.NET\Framework\v4.0.30319\default.win32manifest" (önceki deðer: "") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (4219,7) [c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj]
+"WindowsFormsApp1.csproj" projesinde "_SetEmbeddedWin32ManifestProperties" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "SetWin32ManifestProperties" hedefi ("Compile" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "SetWin32ManifestProperties" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "_SetPreferNativeArm64Win32ManifestProperties" hedefi atlandý; ( '$(PreferNativeArm64)'=='true' and '$(NoWin32Manifest)'!='true'), ( ''=='true' and ''!='true') olarak deðerlendirildi.
+"FindReferenceAssembliesForReferences" hedefi atlandý. Önceden baþarýlý bir þekilde derlenmiþti.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "_GenerateCompileInputs" hedefi ("Compile" hedefi buna baðýmlý):
+Yanlýþ koþul nedeniyle "MSBuildInternalMessage" görevi atlandý; ('@(ManifestResourceWithNoCulture)'!='' and '%(ManifestResourceWithNoCulture.EmittedForCompatibilityOnly)'==''), ('obj\Debug\WindowsFormsApp1.EmanetKitapListelefrm.resources;obj\Debug\WindowsFormsApp1.EmanetKitapVerfrm.resources;obj\Debug\WindowsFormsApp1.EmanetKitapÝadefrm.resources;...'!='' and 'true'=='') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "MSBuildInternalMessage" görevi atlandý; ('@(ManifestNonResxWithNoCultureOnDisk)'!='' and '%(ManifestNonResxWithNoCultureOnDisk.EmittedForCompatibilityOnly)'==''), (''!='' and ''=='') olarak deðerlendirildi.
+"WindowsFormsApp1.csproj" projesinde "_GenerateCompileInputs" hedefini oluþturma tamamlandý.
+"PrepareForBuild" hedefi atlandý. Önceden baþarýlý bir þekilde derlenmiþti.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\Microsoft.Managed.Core.targets" dosyasýndaki "GenerateMSBuildEditorConfigFileShouldRun" hedefi ("GenerateMSBuildEditorConfigFile" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "GenerateMSBuildEditorConfigFileShouldRun" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "GenerateMSBuildEditorConfigFileCore" hedefi atlandý; ('$(_GeneratedEditorConfigShouldRun)' == 'true'), ('' == 'true') olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\Microsoft.Managed.Core.targets" dosyasýndaki "GenerateMSBuildEditorConfigFile" hedefi ("BeforeCompile" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "GenerateMSBuildEditorConfigFile" hedefini oluþturma tamamlandý.
+"PrepareForBuild" hedefi atlandý. Önceden baþarýlý bir þekilde derlenmiþti.
+"GetReferenceAssemblyPaths" hedefi atlandý. Önceden baþarýlý bir þekilde derlenmiþti.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.CSharp.CurrentVersion.targets" dosyasýndaki "_SetTargetFrameworkMonikerAttribute" hedefi ("GenerateTargetFrameworkMonikerAttribute" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "_SetTargetFrameworkMonikerAttribute" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "GenerateTargetFrameworkMonikerAttribute" hedefi ("BeforeCompile" hedefi buna baðýmlý):
+Tüm çýkýþ dosyalarý, giriþ dosyalarýna göre güncel durumda olduðundan "GenerateTargetFrameworkMonikerAttribute" hedefi atlanýyor.
+Giriþ dosyalarý: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.targets
+Çýkýþ dosyalarý: obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+"WindowsFormsApp1.csproj" projesinde "GenerateTargetFrameworkMonikerAttribute" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "GenerateAdditionalSources" hedefi atlandý; ('@(AssemblyAttributes)' != '' and '$(GenerateAdditionalSources)' == 'true'), ('' != '' and '' == 'true') olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "BeforeCompile" hedefi ("Compile" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "BeforeCompile" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "_TimeStampBeforeCompile" hedefi atlandý; ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')), (''=='OnOutputUpdated' or (''=='true' and 'WinExe'=='library')) olarak deðerlendirildi.
+"ResolveAssemblyReferences" hedefi atlandý. Önceden baþarýlý bir þekilde derlenmiþti.
+"_GenerateCompileInputs" hedefi atlandý. Önceden baþarýlý bir þekilde derlenmiþti.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "_GenerateCompileDependencyCache" hedefi ("Compile" hedefi buna baðýmlý):
+"Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" derlemesindeki "Hash" görevi kullanýlýyor.
+"Hash" görevi
+"Hash" görevini yürütme tamamlandý.
+"WriteLinesToFile" görevi
+"WriteLinesToFile" görevini yürütme tamamlandý.
+"WindowsFormsApp1.csproj" projesinde "_GenerateCompileDependencyCache" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "_ComputeNonExistentFileProperty" hedefi atlandý; (('$(BuildingInsideVisualStudio)' == 'true') and ('$(BuildingOutOfProcess)' != 'true') and (('$(BuildingProject)' == 'false') or ('$(UseHostCompilerIfAvailable)' == 'true'))), (('' == 'true') and ('' != 'true') and (('true' == 'false') or ('true' == 'true'))) olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "ResolveCodeAnalysisRuleSet" hedefi atlandý; ('$(CodeAnalysisRuleSet)' != ''), ('' != '') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "ShimReferencePathsWhenCommonTargetsDoesNotUnderstandReferenceAssemblies" hedefi atlandý; ('@(ReferencePathWithRefAssemblies)' == ''), ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.CSharp.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\mscorlib.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Core.dll;...' == '') olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\Microsoft.Managed.Core.targets" dosyasýndaki "_BeforeVBCSCoreCompile" hedefi ("CoreCompile" hedefi buna baðýmlý):
+"WindowsFormsApp1.csproj" projesinde "_BeforeVBCSCoreCompile" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "ShimReferencePathsWhenCommonTargetsDoesNotUnderstandReferenceAssemblies" hedefi atlandý; ('@(ReferencePathWithRefAssemblies)' == ''), ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.CSharp.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\mscorlib.dll;C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Core.dll;...' == '') olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\Microsoft.Managed.Core.targets" dosyasýndaki "_ComputeSkipAnalyzers" hedefi ("CoreCompile" hedefi buna baðýmlý):
+Yanlýþ koþul nedeniyle "ShowMessageForImplicitlySkipAnalyzers" görevi atlandý; ('$(_ImplicitlySkipAnalyzers)' == 'true'), ('' == 'true') olarak deðerlendirildi.
+"WindowsFormsApp1.csproj" projesinde "_ComputeSkipAnalyzers" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "_SetPathMapFromSourceRoots" hedefi atlandý; ('$(DeterministicSourcePaths)' == 'true'), ('' == 'true') olarak deðerlendirildi.
+Yanlýþ koþul nedeniyle "CreateCompilerGeneratedFilesOutputPath" hedefi atlandý; ('$(EmitCompilerGeneratedFiles)' == 'true' and !('$(DesignTimeBuild)' == 'true' OR '$(BuildingProject)' != 'true')), ('false' == 'true' and !('' == 'true' OR 'true' != 'true')) olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.ServiceModel.targets" dosyasýndaki "PreXsdCodeGen" hedefi ("CoreCompile" hedefi buna baðýmlý):
+"Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" derlemesindeki "CallTarget" görevi kullanýlýyor.
+"CallTarget" görevi
+"CleanXsdCodeGen" hedefi atlandý. Önceden baþarýlý bir þekilde derlenmiþti.
+"CallTarget" görevini yürütme tamamlandý.
+"WindowsFormsApp1.csproj" projesinde "PreXsdCodeGen" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "XsdCodeGen" hedefi atlandý; ( '$(XsdCodeGenPreCondition)' == 'True' ), ( 'False' == 'True' ) olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\Microsoft.CSharp.Core.targets" dosyasýndaki "CoreCompile" hedefi ("Compile" hedefi buna baðýmlý):
+"CoreCompile" hedefi tam olarak oluþturuluyor.
+"obj\Debug\WindowsFormsApp1.exe" çýkýþ dosyasý yok.
+"C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" derlemesindeki "Csc" görevi kullanýlýyor.
+"Csc" görevi
+  C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:1701,1702 /fullpaths /nostdlib+ /platform:anycpu32bitpreferred /errorreport:prompt /warn:4 /define:DEBUG;TRACE /highentropyva+ /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.CSharp.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.DataSetExtensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Deployment.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Net.Http.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Windows.Forms.DataVisualization.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Windows.Forms.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.Linq.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\WindowsFormsApp1.exe /subsystemversion:6.00 /resource:obj\Debug\WindowsFormsApp1.EmanetKitapListelefrm.resources /resource:obj\Debug\WindowsFormsApp1.EmanetKitapVerfrm.resources /resource:"obj\Debug\WindowsFormsApp1.EmanetKitapÝadefrm.resources" /resource:obj\Debug\WindowsFormsApp1.Form1.resources /resource:obj\Debug\WindowsFormsApp1.Grafikfrm.resources /resource:obj\Debug\WindowsFormsApp1.KitapEklefrm.resources /resource:obj\Debug\WindowsFormsApp1.KitapListelefrm.resources /resource:"obj\Debug\WindowsFormsApp1.KullanýcýGriþifrm.resources" /resource:obj\Debug\WindowsFormsApp1.Properties.Resources.resources /resource:"obj\Debug\WindowsFormsApp1.Sýralamafrm.resources" /resource:obj\Debug\WindowsFormsApp1.UyeEklefrm.resources /resource:obj\Debug\WindowsFormsApp1.UyeListelefrm.resources /target:winexe /utf8output /deterministic+ /langversion:7.3 EmanetKitapListelefrm.cs EmanetKitapListelefrm.Designer.cs EmanetKitapVerfrm.cs EmanetKitapVerfrm.Designer.cs "EmanetKitapÝadefrm.cs" "EmanetKitapÝadefrm.Designer.cs" Form1.cs Form1.Designer.cs Grafikfrm.cs Grafikfrm.Designer.cs KitapEklefrm.cs KitapEklefrm.Designer.cs KitapListelefrm.cs KitapListelefrm.Designer.cs "KullanýcýGriþifrm.cs" "KullanýcýGriþifrm.Designer.cs" Program.cs Properties\AssemblyInfo.cs "Sýralamafrm.cs" "Sýralamafrm.Designer.cs" UyeEklefrm.cs UyeEklefrm.Designer.cs UyeEklemefrm.cs UyeEklemefrm.Designer.cs UyeListelefrm.cs UyeListelefrm.Designer.cs Properties\Resources.Designer.cs Properties\Settings.Designer.cs "obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs"
+  Microsoft (R) Visual C# Derleyicisi sürüm 4.14.0-3.25412.6 (c167adef)
+  Telif hakký (C) Microsoft Corporation. Tüm haklarý saklýdýr.
+c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\KullanýcýGriþifrm.Designer.cs(136,54): error CS1513: } bekleniyor [c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj]
+c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\KullanýcýGriþifrm.Designer.cs(146,2): error CS1038: #endregion yönergesi bekleniyor [c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj]
+  CompilerServer: server - server processed compilation - WindowsFormsApp1
+"Csc" görevini yürütme tamamlandý -- BAÞARISIZ OLDU.
+"WindowsFormsApp1.csproj" projesinde "CoreCompile" hedefini oluþturma tamamlandý -- BAÞARISIZ OLDU.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "_CheckForCompileOutputs" hedefi ("_CleanGetCurrentAndPriorFileWrites" hedefi buna baðýmlý):
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(5589,7): message : Özellik yeniden atamasý: $(_DebugSymbolsProduced)="false" (önceki deðer: "true") konum: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets (5589,7) [c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj]
+"WindowsFormsApp1.csproj" projesinde "_CheckForCompileOutputs" hedefini oluþturma tamamlandý.
+Yanlýþ koþul nedeniyle "_SGenCheckForOutputs" hedefi atlandý; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')), ('Off' == 'On' or (''!='' and 'Off' == 'Auto')) olarak deðerlendirildi.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "_CleanGetCurrentAndPriorFileWrites" hedefi ("_CleanRecordFileWrites" hedefi buna baðýmlý):
+"ReadLinesFromFile" görevi
+"ReadLinesFromFile" görevini yürütme tamamlandý.
+"Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" derlemesindeki "ConvertToAbsolutePath" görevi kullanýlýyor.
+"ConvertToAbsolutePath" görevi
+"ConvertToAbsolutePath" görevini yürütme tamamlandý.
+"FindUnderPath" görevi
+  Karþýlaþtýrma yolu: "c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1".
+"FindUnderPath" görevini yürütme tamamlandý.
+"FindUnderPath" görevi
+  Karþýlaþtýrma yolu: "bin\Debug\".
+"FindUnderPath" görevini yürütme tamamlandý.
+"FindUnderPath" görevi
+  Karþýlaþtýrma yolu: "obj\Debug\".
+"FindUnderPath" görevini yürütme tamamlandý.
+"RemoveDuplicates" görevi
+"RemoveDuplicates" görevini yürütme tamamlandý.
+"WindowsFormsApp1.csproj" projesinde "_CleanGetCurrentAndPriorFileWrites" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" projesinin "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets" dosyasýndaki "_CleanRecordFileWrites" hedefi ("CoreBuild" hedefi buna baðýmlý):
+"RemoveDuplicates" görevi
+"RemoveDuplicates" görevini yürütme tamamlandý.
+"MakeDir" görevi
+"MakeDir" görevini yürütme tamamlandý.
+"WriteLinesToFile" görevi
+"WriteLinesToFile" görevini yürütme tamamlandý.
+"WindowsFormsApp1.csproj" projesinde "_CleanRecordFileWrites" hedefini oluþturma tamamlandý.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" Projesini Oluþturma Ýþlemi Tamamlandý (Rebuild hedef) -- BAÞARISIZ OLDU.
+
+"MSBuild" görevini yürütme tamamlandý -- BAÞARISIZ OLDU.
+"WindowsFormsApp1.sln" projesinde "Rebuild" hedefini oluþturma tamamlandý -- BAÞARISIZ OLDU.
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1.sln" Projesini Oluþturma Ýþlemi Tamamlandý (Rebuild hedef) -- BAÞARISIZ OLDU.
+
+
+Oluþturma BAÞARISIZ OLDU.
+
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1.sln" (Rebuild hedefi) (1) ->
+"c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj" (Rebuild hedefi) (2) ->
+(CoreCompile hedefi) -> 
+  c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\KullanýcýGriþifrm.Designer.cs(136,54): error CS1513: } bekleniyor [c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj]
+  c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\KullanýcýGriþifrm.Designer.cs(146,2): error CS1038: #endregion yönergesi bekleniyor [c:\Users\mehme\source\repos\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1.csproj]
+
+    0 Uyarý
+    2 Hata
+
+Geçen Süre 00:00:00.37

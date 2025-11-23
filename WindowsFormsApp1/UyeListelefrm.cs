@@ -54,6 +54,20 @@ namespace WindowsFormsApp1
             SqlDataAdapter adtr = new SqlDataAdapter("select *from UYE where tc like'%" + txtAraTc.Text + "%'", baglanti);
             adtr.Fill(daset,"UYE");
             dataGridView1.DataSource = daset.Tables["UYE"];
+            
+            // Kolon başlıklarını düzenle
+            if (dataGridView1.Columns.Count > 0)
+            {
+                dataGridView1.Columns["tc"].HeaderText = "TC KIMLIK NO";
+                dataGridView1.Columns["adsoyad"].HeaderText = "AD SOYAD";
+                dataGridView1.Columns["yas"].HeaderText = "YAŞ";
+                dataGridView1.Columns["cinsiyet"].HeaderText = "CINSIYET";
+                dataGridView1.Columns["telefon"].HeaderText = "TELEFON";
+                dataGridView1.Columns["adres"].HeaderText = "ADRES";
+                dataGridView1.Columns["email"].HeaderText = "E-MAIL";
+                dataGridView1.Columns["okukitapsayisi"].HeaderText = "OKUNAN KITAP SAYISI";
+            }
+            
             baglanti.Close() ;
         }
 
@@ -76,9 +90,8 @@ namespace WindowsFormsApp1
                 MessageBox.Show("Silme İşlekmi Gerçekleişti");
                 daset.Tables["UYE"].Clear();
                 uyelistele();
-                foreach (Control item in Controls)
+                foreach (Control item in panelLeft.Controls)
                 {
-
                     if (item is TextBox)
                     {
                         item.Text = "";
@@ -94,6 +107,20 @@ namespace WindowsFormsApp1
             SqlDataAdapter adtr = new SqlDataAdapter("select *from UYE", baglanti);
             adtr.Fill(daset, "UYE");
             dataGridView1.DataSource = daset.Tables["UYE"];
+            
+            // Kolon başlıklarını düzenle
+            if (dataGridView1.Columns.Count > 0)
+            {
+                dataGridView1.Columns["tc"].HeaderText = "TC KIMLIK NO";
+                dataGridView1.Columns["adsoyad"].HeaderText = "AD SOYAD";
+                dataGridView1.Columns["yas"].HeaderText = "YAŞ";
+                dataGridView1.Columns["cinsiyet"].HeaderText = "CINSIYET";
+                dataGridView1.Columns["telefon"].HeaderText = "TELEFON";
+                dataGridView1.Columns["adres"].HeaderText = "ADRES";
+                dataGridView1.Columns["email"].HeaderText = "E-MAIL";
+                dataGridView1.Columns["okukitapsayisi"].HeaderText = "OKUNAN KITAP SAYISI";
+            }
+            
             baglanti.Close() ;
         }
 
@@ -130,7 +157,7 @@ namespace WindowsFormsApp1
 
                 daset.Tables["UYE"].Clear();
                 uyelistele();
-                foreach (Control item in Controls)
+                foreach (Control item in panelLeft.Controls)
                 {
                     if (item is TextBox)
                     {

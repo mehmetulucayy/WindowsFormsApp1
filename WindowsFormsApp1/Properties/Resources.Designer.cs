@@ -60,25 +60,6 @@ namespace WindowsFormsApp1.Properties {
             }
         }
         
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap indir {
-            get {
-                object obj = ResourceManager.GetObject("indir", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap png_clipart_user_login_session_password_business_others_miscellaneous_business_thumbnail {
-            get {
-                object obj = ResourceManager.GetObject("png-clipart-user-login-session-password-business-others-miscellaneous-business-th" +
-                        "umbnail", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
+
     }
 }
