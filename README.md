@@ -2,6 +2,12 @@
 
 Modern ve profesyonel bir Windows Forms kütüphane yönetim uygulaması.
 
+## 📥 İndir ve Kullan
+
+**[Uygulamayı İndir](dist/)** - Hazır .exe dosyası
+
+Kurulum talimatları için [`dist/KURULUM.md`](dist/KURULUM.md) dosyasına bakın.
+
 ## 🎨 Özellikler
 
 ### Modern UI Tasarımı
