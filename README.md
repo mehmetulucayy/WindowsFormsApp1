@@ -38,18 +38,17 @@ Kurulum talimatları için [`dist/KURULUM.md`](dist/KURULUM.md) dosyasına bakı
 
 ## 🎯 Modernize Edilen Formlar
 
-### ✅ Tamamlanan (7 Form)
+### ✅ Tamamlanan (8 Form)
 1. **UyeListelefrm** - Üye listeleme ve düzenleme
 2. **UyeEklefrm** - Yeni üye ekleme
 3. **KitapListelefrm** - Kitap listeleme ve düzenleme
 4. **KitapEklefrm** - Yeni kitap ekleme
 5. **EmanetKitapListelefrm** - Emanet kitap listeleme
 6. **EmanetKitapİadefrm** - Kitap iade işlemleri
-7. **Grafikfrm** - İstatistik grafikleri
-8. **Sıralamafrm** - Üye sıralaması
+7. **EmanetKitapVerfrm** - Emanet kitap verme
+8. **Grafikfrm** - İstatistik grafikleri
+9. **Sıralamafrm** - Üye sıralaması
 
-### ⚠️ Eski Tasarım
-- **EmanetKitapVerfrm** - Emanet kitap verme (karmaşık yapı nedeniyle)
 
 ## 🎨 Tasarım Standartları
 
@@ -102,11 +101,52 @@ White Panels:   #FFFFFF
 
 ## 📸 Ekran Görüntüleri
 
-Modern formlar:
-- Koyu mavi top panel
-- Beyaz form panelleri
-- Renkli aksiyon butonları
-- Düzgün Türkçe kolon başlıkları
+### Giriş ve Ana Sayfa
+![Kullanıcı Girişi](dist/Ekran%20Görüntüleri/Kullanıcı%20Girişi.png)
+*Modern giriş ekranı*
+
+![Ana Sayfa](dist/Ekran%20Görüntüleri/Ana%20Sayfa.png)
+*Ana menü - Tüm modüllere erişim*
+
+### Üye Yönetimi
+![Üye Ekleme](dist/Ekran%20Görüntüleri/Üye%20Ekleme.png)
+*Yeni üye ekleme formu - Modern panel tasarımı*
+
+![Üye Listeleme](dist/Ekran%20Görüntüleri/Üye%20Listeleme%20ve%20Güncelleme.png)
+*Üye listeleme ve güncelleme - Mavi header, düzgün kolon başlıkları*
+
+### Kitap Yönetimi
+![Kitap Ekleme](dist/Ekran%20Görüntüleri/Kitap%20Ekleme.png)
+*Yeni kitap ekleme formu*
+
+![Kitap Listeleme](dist/Ekran%20Görüntüleri/Kitap%20Listeleme.png)
+*Kitap listeleme ve düzenleme - Profesyonel DataGridView*
+
+### Emanet İşlemleri
+![Emanet Kitap Verme](dist/Ekran%20Görüntüleri/Emanet%20Kitap%20Verme%20Sayfası.png)
+*Emanet kitap verme - Sepet sistemi ile*
+
+![Emanet Kitap Listele](dist/Ekran%20Görüntüleri/Emanet%20Kitap%20Listele.png)
+*Emanet kitap listeleme - Filtreleme seçenekleri*
+
+![Emanet Kitap İade](dist/Ekran%20Görüntüleri/Emanet%20Kitap%20İade.png)
+*Kitap iade işlemleri*
+
+### Raporlama
+![Grafik Sayfası](dist/Ekran%20Görüntüleri/Grafik%20Sayfası.png)
+*İstatistik grafikleri - Üyelerin okuduğu kitap sayısı*
+
+![Üye Sıralama](dist/Ekran%20Görüntüleri/Üye%20Sıralama%20Sayfası.png)
+*Üye sıralama - En çok/az kitap okuyanlar*
+
+### Tasarım Özellikleri
+- ✅ Koyu mavi top panel (#2C3E50)
+- ✅ Beyaz form panelleri
+- ✅ Renkli aksiyon butonları (Mavi, Yeşil, Kırmızı)
+- ✅ Düzgün Türkçe kolon başlıkları
+- ✅ Modern Segoe UI font
+- ✅ 35px satır yüksekliği (rahat okuma)
+
 
 ## 🔧 Teknik Detaylar
 
